@@ -1,0 +1,36 @@
+.group-details {
+  width: 100%;
+  h3 {
+    color: #585C66;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  .group-details-create-date {
+    padding: 17px 0px;
+  }
+  .group-details__profile {
+    margin-top: 5px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-weight: 700;
+    }
+    span {
+      font-weight: 400;
+      color: #585C66
+    }
+  }
+  .MuiDivider-root {
+    margin-bottom: 10px;
+  }
+  .group-details__members {
+    margin-top: 12px;
+  }
+  .pen-icon{
+    border-radius: 15px;
+    padding: 5px;
+    background: #ddd;
+  }
+}

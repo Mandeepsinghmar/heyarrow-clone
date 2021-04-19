@@ -1,0 +1,16 @@
+.viewAllLink {
+    text-decoration: none;
+    color: #707580;
+    font-size: 13px;
+    display: inline-block;
+    transition: all linear 0.2s 0s;
+    cursor: pointer;
+
+    &:hover {
+      color: #ddd;
+      text-decoration: underline;
+    }
+  }
+.product-comment-list-container {
+  padding: 10px;
+}

@@ -1,0 +1,36 @@
+.product-reminder {
+  font-size: 12px;
+  box-shadow: inset 0px -0.5px 0px #DADEE5;
+  padding: 12px;
+  background-color: white;
+  .product-reminder__text {
+    padding-left: 8px;
+    color: #40444D;
+  }
+  .product-reminder__button {
+    color: #40444D;
+    cursor: pointer;
+  }
+}
+.item-img-container {
+  height: 455px;
+  width: 100%;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+.tag-btn {
+  position: absolute !important;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  margin: 10px !important;
+  width: 32px;
+  height: 32px;
+  padding: 0px !important;
+  * {
+    color: white !important;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

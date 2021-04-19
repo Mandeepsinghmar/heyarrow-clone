@@ -1,0 +1,9 @@
+.leftSidebar::-webkit-scrollbar  {
+  height: 0px;
+  width: 0px;
+}
+
+.leftSideBar:hover::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}

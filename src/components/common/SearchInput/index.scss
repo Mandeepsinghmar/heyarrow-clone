@@ -1,0 +1,21 @@
+.search-field {
+  .search-field__input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  background-color: #E4E6EB;
+  padding: 7px 10px;
+  color: black;
+  .search-field__icon {
+    object-fit: contain;
+  }
+  margin-bottom: 14.5px;
+  border-radius: 2px;
+}
+
+.search-input_bg-gray {
+  background-color: #f2f3f5 !important;
+}

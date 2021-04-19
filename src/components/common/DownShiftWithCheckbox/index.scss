@@ -1,0 +1,48 @@
+.custom-select-checkbox .custom-select-button {
+  display: block;
+  width: 16%;
+  text-align: left;
+  position: relative;
+  padding: 0.7em 0.5em;
+  font-family: "Inter";
+  font-size: 15px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor:pointer;
+}
+.custom-select-checkbox .custom-select-button:after {
+  content: "";
+  width: 1em;
+  height: 1em;
+  background: url("https://uploads.codesandbox.io/uploads/user/7d746f55-6ab2-452b-b81c-c67d029a18b4/f-1E-down-caret.svg")
+    no-repeat center;
+  position: absolute;
+  right: 0.4em;
+}
+.item-list {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
+  max-height: 180px;
+  overflow: hidden;
+  border: 1px solid grey;
+  border-top: none;
+  max-width: 241px;
+  display: inline;
+}
+
+.custom-select-label {
+  display: block;
+  margin: 0;
+  padding: 0.5em 0.9em;
+}
+
+.custom-select-label:hover {
+  background-color: lightgrey;
+}
+.custom-select-label span:after {
+  top: 0;
+  left: 0.9em;
+}
+.checkboxlist {
+  float: right;
+}

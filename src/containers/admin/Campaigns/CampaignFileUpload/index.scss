@@ -1,0 +1,125 @@
+.files-upload{
+  margin-left: 13.57%;
+  margin-right: 12.78%;
+  width: 75%;
+  height: 65%;
+  margin-top: 5.5%;
+  background: rgba(196, 196, 196, 0.2);
+  border: 0.5px solid rgba(196, 196, 196, 0.7) !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.files-upload-success{
+  margin-left: 13.57%;
+  margin-right: 12.78%;
+  width: 75%;
+  height: 65%;
+  margin-top: 5.5%;
+  background:#d4ebd4;
+  border: 0.5px solid rgba(196, 196, 196, 0.7) !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.selected-files-text {
+  margin-top: 37.12%; 
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  color: rgba(64, 68, 77, 0.8);
+}
+
+.vector{
+  position: absolute;
+    width: 5px;
+    height: 5px;
+    left: calc(50% - 33.5px/2 + 25.75px);
+    top: calc(49% - 33px/2 - 50.5px);
+    background: #C4C4C4;
+    border-radius: 1px;
+    overflow: hidden;
+    border: solid 15px green;
+    z-index: 9;
+    border-bottom-color: #c4c4c4;
+    border-right-color: #f3f3f3;
+    border-top-color: #f3f3f3;
+    border-left-color: #c4c4c4;
+}
+
+.rectangle {
+  width: 73.27px;
+  height: 92.21px;
+  margin-left: calc(49% - 73.27px/2 + -0.87px);
+  margin-top: calc(35% - 92.21px/2 - 17.11px);
+  border: 10px solid #C4C4C4;
+  border-radius: 1px;
+}
+
+.plus {
+  width: 33px;
+  height: 33px;
+  margin-left: calc(41% - 30px/2 + 3px);
+  margin-top: calc(50% - 30px/2 + 11px);
+  background: linear-gradient(#c4c4c4, #c4c4c4), linear-gradient(#c4c4c4, #c4c4c4);
+  background-position: center;
+  background-size: 50% 4px,4px 50%;
+  background-repeat: no-repeat;
+}
+
+.select-files-text{
+  margin-left: 37.17%;
+  margin-top: 2%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(64, 68, 77, 0.8);
+ }
+
+ .drag-drop-text{
+  margin-left: 35.17%;
+  right: 28.17%;
+  margin-top: 0.5%;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(64, 68, 77, 0.8);
+}
+
+.socialpostnextbutton {
+  bottom: 14px;
+  margin-right: 20px;
+  font-family: Inter;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 4px;
+  right: 0;
+}
+
+.socialpostnexttext {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600 ;
+  font-size: 13px ;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}
+
+.campignfile-upload{
+  height: inherit;
+}

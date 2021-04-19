@@ -1,0 +1,50 @@
+.customer-details {
+  width: 100%;
+  h3 {
+    color: #585C66;
+    border-bottom: 1px solid #CED2D9;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+  .customer-details__profile {
+    margin-top: 5px;
+    font-size: 13px;
+    h4 {
+      font-weight: 700;
+    }
+    span {
+      font-weight: 400;
+      color: #585C66
+    }
+  }
+  .customer-details__buttons {
+    button {
+      background: #E4E6EB;
+      padding: 8px;
+      img {
+        width: 14px;
+      }
+    }
+    button:first-child {
+      margin-right: 7px;
+    }
+  }
+  .purchase-history-list {
+    margin-top: 23px;
+  }
+  .empty-state {
+    img {
+      width: 60px;
+    }
+    span {
+      font-size: 13px;
+    }
+  }
+}
+.MuiTooltip-tooltip {
+  background-color: #40444D !important;
+  border-radius: 2px !important;
+  padding: 7px 14px !important;
+}

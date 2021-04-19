@@ -1,0 +1,70 @@
+
+
+.uploadcard {
+  position: absolute;
+  height: 700px;
+  width: 840px;
+  background: #ffffff;
+  border-radius: 4px;
+  top: 135px;
+}
+
+.MuiCardHeader-title {
+  position: static;
+  height: 10%;
+  top: calc(50% - 18px / 2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 2px 32px;
+}
+
+.socialpostbackbutton {
+  float: left;
+  margin-left: 4%;
+  margin-right: 20px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  bottom: 14px;
+}
+
+.socialpostbacktext {
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-weight: Inter;
+}
+
+.socialpostnextbutton {
+  bottom: 14px;
+  margin-right: 20px;
+  font-family: Inter;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 4px;
+  right: 0;
+}
+
+
+.socialpostnexttext {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600 ;
+  font-size: 13px ;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}

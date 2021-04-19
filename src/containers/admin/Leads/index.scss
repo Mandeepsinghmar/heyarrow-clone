@@ -1,0 +1,265 @@
+.leadList {
+    padding: 60px 0px 0px;
+    width: 100%;
+    .searchContain {
+        margin-top: 1px;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .searchContain img {
+        width: 13px;
+    }
+    .search-field {
+        margin: 0px;
+        width: 190px !important;
+        height: 30px;
+    }
+    .moreLeads {
+        border: none !important;
+    }
+    .headingBox.headingToggle {
+        margin: 0px;
+        margin-right: 5px;
+        ul {
+            padding: 0px;
+            height: 30px;
+            border-radius: 2px;
+            li {
+                border-radius: 2px;
+                padding: 6px 10px;
+                color: #40444D;
+            }
+            li.active {
+                color: #000;
+            }
+        }
+    }
+    .tableContent table thead tr th {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #585C66;
+        padding-bottom: 5px;
+        min-width: 110px;
+        .Email.Address {
+            min-width: auto !important;
+        }
+    }
+    .tableContent table thead tr th:last-child {
+        min-width: auto;
+    }
+    .tableContent table tbody tr {
+        height: 40px;
+        td {
+            font-size: 13px;
+            line-height: 16px;
+            padding: 5px 0px;
+        }
+        td.date, td.source {
+            width: 100px;
+        }
+        td.customer_type {
+            width: 120px;
+        }
+        td.first_name, td.last_name {
+            width: 90px;
+        }
+        td.email {
+            input {
+                width: 210px;
+            }
+        }
+        td.phone_no {
+            input {
+                width: 170px;
+            }
+        }
+        td.last_purchase {
+            input {
+                width: 190px;
+            }
+        }
+        td.assign_to {
+            input {
+                width: 100px;
+                margin-left: 5px;
+            }
+        }
+        td.assign_on {
+            input {
+                width: 120px;
+            }
+        }
+        td.status {
+            input {
+                width: 70px;
+            }
+        }
+        input.editingInput {
+            padding-left: 0px;
+            line-height: 16px;
+            width: 110px;
+            margin-right: 10px;
+        }
+        .searchTabs {
+            img {
+                top: 8px !important;
+            }
+        }
+        .stateId {
+            .search-field {
+                width: 100% !important;
+                height: auto;
+                input {
+                    padding-left: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+.addLeadModal {
+    max-width: 400px;
+    max-height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%) !important;
+    .modal-body {
+        padding: 20px 0px;
+    }
+    .createLeadHeader {
+        height: 30px;
+        box-shadow: inset 0px -0.5px 0px #dadee5;
+        border-radius: 4px 4px 0px 0px;
+        padding: 0px 20px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    button.roleCloseBtn {
+        position: absolute;
+        top: 13px;
+        right: 20px;
+        i {
+          color: #707580;
+          font-weight: 700;
+        }
+    }
+    .roleContent {
+        padding: 20px 20px 10px 20px;
+        .halfInputContainer {
+            display: flex;
+            justify-content: space-between;
+            input {
+                width: 49%;
+            }
+        }
+        .phoneInputContainer {
+            display: flex;
+            justify-content: space-between;
+            input.countryDrop {
+                width: 24% !important;
+            }
+            input {
+                width: 74%;
+            }
+        }
+        input {
+            background: #FFFFFF;
+            border: 0.5px solid #CED2D9;
+            border-radius: 2px;
+            width: 100%;
+            height: 34px;
+            padding: 10px;
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            outline: none !important;
+        }
+        .LeadsDropDown {
+            width: 49%;
+            height: 34px;
+            background: #FFFFFF;
+            border: 0.5px solid #CED2D9;
+            border-radius: 2px;
+            padding: 7px 10px;
+            font-size: 12px;
+            line-height: 15px;
+            position: relative;
+            margin-bottom: 10px;
+            .dropdown .btn {
+                font-size: 12px !important;
+                line-height: 15px;
+                color: #707580 !important;
+                font-weight: 400;
+                width: 100%;
+                text-align: left;
+            }
+            .dropIcons {
+                position: absolute;
+                right: 10px;
+                top: 8px;
+            }
+            .dropdown-menu {
+                    width: 240px;
+                    height: 240px;
+                    overflow-y: scroll;
+                input {
+                    width: 100%;
+                }
+                .searchTabs {
+                    width: 100%;
+                }
+            }
+        }
+        .salesRepDrop {
+            width: 100%;
+            .assignWrapper {
+                display: flex;
+            }
+            .assignWrapper .MuiCheckbox-root {
+                display: none;
+            }
+        }
+        ::placeholder {
+            text-transform: capitalize !important;
+        }
+    }
+    .buttonOuterLead {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    button.cancelRoleBtn {
+        width: 175px;
+        height: 32px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #EDEFF2;
+        color: #40444D;
+        padding: 8px 15px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    button.sendRoleBtn {
+        width: 175px;
+        height: 32px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        color: #fff;
+        padding: 8px 15px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

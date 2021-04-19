@@ -1,0 +1,9 @@
+.profile-group {
+  display: flex;
+  .profile-group__item:nth-child(2){
+    margin-left: -15px;
+  }
+  .profile-group__item:first-child{
+    z-index: 2;
+  }
+}

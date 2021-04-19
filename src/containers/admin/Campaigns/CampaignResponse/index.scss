@@ -1,0 +1,88 @@
+.responsesection{
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+.response_div{
+  padding-bottom: 5%;
+}
+.responsemain{
+  // margin-top: 6.5%;
+  padding: 15px;
+}
+.responseTable{
+  width: 95% !important;
+}
+.responseTable th{
+  font-weight: bold;
+  background-color: #EDEFF2;
+}
+.searchResponseTabs {
+  display: flex;
+  width: 190px;
+  margin-top: 50px;
+  float:right;
+  margin-right: 10px;
+}
+.searchicon {
+  position: relative;
+  right: 20px;
+}
+.response_filters {
+  float: right;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.response_filters_item{
+  width: 150px !important;
+}
+.response_header_title {
+    margin-top: 55px;
+    float: right;
+    margin-right: 10px;
+}
+.response_header_text {
+  width: 93px;
+  height: 31px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #40444d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.recentIcon {
+  height: 15px;
+  width: 18px;
+  border-radius: 0px;
+}
+.assign_drpdwnVisible {
+  position: absolute;
+   background-color: #ffffff;
+   top: 10px;
+   width: 100px;
+   z-index: 1;
+   right: 5px;
+   text-align: center;
+   padding: 8px
+}
+
+.assignee_txt {
+cursor: pointer;
+}
+
+.chatPage{
+  position: absolute;
+    width: 562px;
+    right: 70px;
+    z-index: 1;
+    top: 150px;
+    background-color: white;
+}

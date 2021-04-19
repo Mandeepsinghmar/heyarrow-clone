@@ -1,0 +1,60 @@
+.socialList {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      font-size: 10px;
+      margin: 0 12.5px;
+      cursor: pointer;
+      transition: opacity linear 0.2s 0s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      .socialIcon {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7px;
+        background: #1da1f2;
+        color: #fff;
+
+        &.facebook {
+          background: #4267b2;
+        }
+
+        &.linkedin {
+          background: #0e76a8;
+        }
+
+        &.tiktok {
+          background: #000000;
+        }
+
+        &.whatsapp {
+          background: #4fce5d;
+        }
+
+        i {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

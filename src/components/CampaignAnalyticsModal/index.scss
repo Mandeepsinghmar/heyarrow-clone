@@ -1,0 +1,177 @@
+.centerSideanalyticsheader {
+  display: flex;
+  text-align: center;
+  width: calc(100% - 300px);
+
+  ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      padding: 0 10px;
+
+      a {
+        text-decoration: none;
+        color: #40444d;
+        font-weight: 500;
+        padding: 20px 5px;
+        font-size: 13px;
+
+        &.active {
+          color: #000;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.campaignanalyticsheader {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  background: #fff;
+  border-top: solid 8px #ffffff;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 99.9%;
+  z-index: 20;
+  margin-left: -19px;
+  border-bottom: 0.5px solid #e4e6eb;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  height: 60px;
+  margin-top: -10px;
+
+  .leftSideHeader {
+    display: flex;
+    width: 40%;
+    align-items: center;
+
+    .logoLink {
+      display: inline-block;
+
+      img {
+        max-width: 150px;
+        max-height: 30px;
+      }
+    }
+  }
+  .centerSide {
+    display: flex;
+    text-align: center;
+    width: calc(100% - 70%);
+  }
+  .rightSide {
+    display: flex;
+    text-align: right;
+    width: 25%;
+  }
+}
+
+.datebutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 15px;
+  position: absolute;
+  width: 75px;
+  height: 34px;
+  left: 20%;
+  background: #367c2c;
+  border-radius: 4px;
+}
+.campaignAnalyticsTitle {
+  position: static;
+  height: 18px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 18px / 2);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.headingBoxAnalytics {
+  box-shadow: none;
+
+  .headingBoxAnalytics__tabs {
+    max-width: 406px;
+    align-items: center;
+  }
+}
+
+.datetext {
+  color: #ffffff;
+  position: absolute;
+  height: 10%;
+  top: 8px;
+  width: -1%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+}
+.duplicatebutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 15px;
+  width: 90px;
+  height: 33px;
+  position: absolute;
+  left: 93.04%;
+  right: 0%;
+  top: 12.43%;
+  bottom: 94.52%;
+  background: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.duplicatetext {
+  position: absolute;
+  width: 91px;
+  padding: 10px 15px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.analyticsPreview {
+  height: auto;
+  width: 100%;
+  left: 20px;
+  top: 60px;
+  overflow: scroll;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.04)),
+    drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.06)),
+    drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.04));
+  .analytics-container {
+    height: auto;
+    width: 100%;
+    border-radius: 0px;
+    background: #ffffff;
+  }
+}

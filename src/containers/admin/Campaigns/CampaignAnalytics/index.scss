@@ -1,0 +1,141 @@
+.graph_chat_div {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.analytics_chatdiv {
+  display: flex;
+  float: right;
+}
+.AnalyticSection {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+.graph_container {
+  height: 100%;
+  width: 100%;
+}
+.AnalyticsCards_dropdown {
+  display: flex;
+  // margin-top: 4%;
+  align-items: center;
+  margin-left: 7%;
+  padding-top: 2%;
+  .analytics-group {
+    display: flex;
+  }
+}
+.analytics__filters {
+  width: 130px;
+  margin-left: 5%;
+}
+.graph-conatiner {
+  margin-left: 4.5%;
+    margin-top: 3%;
+    height: 500px;
+}
+.showShareChatBtn{
+  font-family: Inter;
+  background-color: #000000;
+  border-radius: 4px;
+  display: flex;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 35%;
+}
+.sharechatBtn {
+  font-family: Inter;
+  background-color: #000000;
+  border-radius: 4px;
+  display: flex;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 2%;
+}
+.sharebutton {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}
+.opendetails {
+  cursor: pointer;
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  left: 71px;
+  top: 74px;
+}
+.response_open_text {
+  width: 68px;
+  height: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #40444d;
+}
+.openicon {
+  width: 17px;
+  height: 17px;
+  left: 58px;
+  top: -1px;
+  border-radius: 0.5px;
+  transform: rotate(-180deg);
+  position: absolute;
+}
+.analytics-chat {
+  position: absolute;
+    width: 562px;
+    right: 70px;
+    z-index: 1;
+    top: 150px;
+}
+
+.chat-container-analytics {
+  .sticky-top {
+    background-color: #f2f3f5;
+  }
+  .btn.btn-secondary {
+    border: none !important;
+  }
+  .chat-list__tabs {
+    background-color: #e4e6eb;
+  }
+  .chat-list__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .chat-list_actions {
+      display: flex;
+    }
+    padding-bottom: 11px;
+  }
+  .leftSidebar,
+  .rightSideBar {
+    width: 270px;
+  }
+  .contact-list {
+    width: 100%;
+  }
+  .chat-body-container-analytics {
+    border-radius: 4px;
+  }  
+}
+.email_placeholder{
+  margin-left: 100px;
+  border-color: #ced2d9;
+  border-width: 1px;
+  padding: 10px 60px;
+  color: #707580;
+}
+

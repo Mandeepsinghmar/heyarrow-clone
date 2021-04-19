@@ -1,0 +1,12 @@
+<svg width="200" height="234" viewBox="0 0 200 234" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="100" cy="232" rx="35" ry="2" fill="#E3EEF7"/>
+<circle r="40" transform="matrix(-1 0 0 1 160 102)" fill="#4D92DE"/>
+<path d="M149.393 91.3934L160 102M170.607 112.607L160 102M160 102L170.607 91.3934M160 102L149.393 112.607" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="42.5" y1="42" x2="118.5" y2="42" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="42.5" y1="51" x2="100.5" y2="51" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<circle cx="25.5" cy="46" r="7" stroke="#4D92DE" stroke-width="2"/>
+<line x1="42.5" y1="78" x2="118.5" y2="78" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="42.5" y1="87" x2="100.5" y2="87" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<circle cx="25.5" cy="82" r="7" stroke="#4D92DE" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M140 5C148.284 5 155 11.7157 155 20V53.252C154.329 53.32 153.662 53.4015 153 53.4962V20C153 12.8203 147.18 7 140 7H15C7.8203 7 2 12.8203 2 20V168C2 181.807 13.1929 193 27 193C40.8071 193 52 181.807 52 168V164.492C52 163.668 52.6679 163 53.4918 163H153V150.504C153.662 150.599 154.329 150.68 155 150.748V163H180C180.828 163 181.5 163.672 181.5 164.5V172C181.5 184.703 171.203 195 158.5 195H27C12.0883 195 0 182.912 0 168V20C0 11.7157 6.71573 5 15 5H140ZM54 168C54 179.296 47.0631 188.972 37.2169 193H158.5C170.098 193 179.5 183.598 179.5 172V165H54V168Z" fill="#707580"/>
+</svg>

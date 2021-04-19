@@ -1,0 +1,201 @@
+.rolesAddIcon {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  border: none;
+  background: none;
+}
+
+.permissionListTab li.active {
+  border-left: 2px solid #000;
+}
+
+.permissionListTab li {
+  border-radius: 0 !important;
+  padding: 15px 20px !important;
+  cursor: pointer;
+}
+
+.permissionListTab li input {
+  background: transparent !important;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.permissionListTab li input:focus {
+  outline: none !important;
+}
+
+.permissionListTab li .sendBtn {
+  top: 8px !important;
+}
+
+.permissionListTab li .editRoleBtn {
+  top: 14px !important;
+}
+
+.hidePermissionTable::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent; 
+} 
+
+.permissionToggleSwitch {
+  width: 22px !important;
+  height: 12px !important;
+  padding: 0px !important;
+  margin: 0px 12px;
+  border-radius: 29px;
+  margin-left: 0px !important;
+}
+
+.permissionToggleSwitch .MuiSwitch-switchBase {
+  padding: 2px 0px;
+  left: 2px;
+}
+
+.permissionToggleSwitch .Mui-checked {
+  left: -8px;
+}
+
+.permissionToggleSwitch .MuiSwitch-thumb {
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+}
+
+.permissionToggleSwitch .MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 29px !important;
+}
+
+.roles-table th {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #585C66;
+  border-top: none;
+}
+
+.roles-table td {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.first-table-row {
+  width: 170px;
+}
+
+.rolesPermissionContainer {
+  width: 100%;
+  padding-top: 60px;
+  .leftSideBar {
+    margin-right: 0px;
+    border-right: 0.5px solid #CED2D9;
+    box-shadow: none;
+  }
+  .cardHeader {
+    box-shadow: none;
+    padding-bottom: 12px;
+  }
+  .tableBox {
+    padding: 10px 0px !important;
+  }
+  .roleInput {
+    padding: 8px 20px;
+    input {
+      width: 85%; 
+      font-size: 12; 
+      border: 1px solid rgb(160, 153, 153);
+    }
+  }
+  .addRolesInput {
+    padding: 10px 20px;
+  }
+  .rightSection {
+    width: calc(100% - 240px);
+  }
+}
+
+.addRoleModal {
+  max-width: 550px;
+  max-height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  .tableBox.hidePermissionTable {
+    height: 340px !important;
+    overflow-y: scroll;
+  }
+  .modal-content {
+    border: none !important;
+    border-radius: 4px !important;
+    overflow: scroll;
+    height: 550px;
+  }
+  .modal-body {
+    padding: 20px;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  button.roleCloseBtn {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    i {
+      color: #707580;
+      font-weight: 700;
+    }
+  }
+  button.sendRoleBtn {
+    border-radius: 4px;
+    float: right;
+    background: #000;
+    color: #fff;
+    padding: 8px 15px;
+  }
+  .roleContent {
+    padding-top: 34px;
+    padding-bottom: 38px;
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: #CED2D9 !important;
+    }
+    .prodDescription {
+      width: 100%;
+    }
+    .hidePermissionTable {
+      padding: 0px !important;
+      padding-top: 10px !important;
+      tr {
+        td:last-child {
+          padding-left: 50px;
+        }
+      }
+      tr:last-child {
+        border-bottom: 1px solid #DADEE5;
+      }
+    }
+  }
+}
+
+.addRoleModal .modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.hidePermissionTable {
+  padding: 10px 20px !important;
+  tr {
+    td:last-child {
+      padding-left: 50px;
+    }
+  }
+}

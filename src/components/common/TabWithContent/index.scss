@@ -1,0 +1,19 @@
+.tab-with-content {
+  .tab-with-content__header {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #CED2D9;
+    padding-bottom: 2px;
+    .tab-with-content__header-item {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 0px 5px 5px 0px;
+      border-bottom: 1px solid #CED2D9;
+      cursor: pointer;
+      color: #585C66;;
+    }
+    .tab-with-content__header-item.active {
+      border-bottom: 1px solid black;
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.MuiOutlinedInput-root {
+  border-radius: 2px !important;
+  font-size: 12px;
+}
+
+.MuiFormLabel-root {
+  color:  #707580 !important;
+  &.Mui-focused {
+    color: #707580 !important;
+  }
+}
+
+.MuiOutlinedInput-input {
+  padding: 10px !important;
+  outline: none;
+  &::placeholder {
+    color: #707580 !important;
+  }
+}
+
+.MuiInputLabel-outlined {
+  font-size: 14px !important;
+}

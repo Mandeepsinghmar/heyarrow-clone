@@ -1,0 +1,32 @@
+.purchase-history-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  .purchase-history-item__img {
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .purchase-history-item__description {
+    font-size: 12px;
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    .purchase-history-item__title {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      font-weight: 500;
+    }
+    .purchase-history-item__date {
+      align-self: flex-end;
+      font-size: 10px;
+    }
+    .purchase-history-item__category,
+    .purchase-history-item__date {
+      color: #40444D;
+    }
+  }
+}

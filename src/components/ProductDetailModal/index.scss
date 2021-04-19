@@ -1,0 +1,141 @@
+.product-thumbnails {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  .product-thumbnail__img {
+    width: 54px;
+    height: 40px;
+    margin: 5px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  .product-thumbnail__img.active {
+    border: 2px solid white;
+  }
+}
+
+.modal .postDetailModal .modal-content {
+  background: black;
+}
+
+.postDetailModal {
+  .gridShare {
+    font-weight: 500;
+  }
+  .postDetailContent__header {
+    padding: 15px 20px;
+    h4 {
+      font-weight: 700;
+      font-size: 15px;
+    }
+  }
+  .postDetailContent__props {
+    padding-top: 10px;
+    padding-bottom: 23px;
+    .postDetailContent__props-group:first-child {
+      margin-bottom: 12px;
+    }
+    .postDetailContent__props-group {
+      display: flex;
+    }
+    .postDetailContent__props__item {
+      padding: 0px 10px;
+      display: flex;
+      flex-direction: column;
+      color: #40444D;
+      span {
+        font-size: 11px;
+        font-weight: 500;
+      }
+      span:first-child {
+        text-transform: uppercase;
+        font-size: 10px;
+      }
+    }
+    .postDetailContent__props__item:first-child {
+      border-right: 1px solid #CED2D9;
+      padding-left: 0px;
+    }
+  }
+  .pdf-file-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    .pdf-file-name {
+      color: #40444D;
+      font-size: 12px;
+    }
+  }
+  .infoSection {
+    h4 {
+      color:#585C66;
+      font-size: 12px !important;
+    }
+    &>p {
+      padding-top: 11px;
+    }
+  }
+  .comment-list {
+    padding-top: 11px !important;
+  }
+}
+
+.messageBox {
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  position: absolute;
+  width: 340px;
+  bottom: 10px;
+  input {
+    background-color: #EDEFF2;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    flex: 1;
+    margin-right: 10px;
+    outline:none;
+  }
+}
+
+.sold-to {
+  padding: 13px 20px 0px 20px;
+  .sold-to__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3px;
+  }
+  .sold-to__title-reminder {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    span {
+      padding-left: 8px;
+      color: #40444D;
+    }
+  }
+  h4 {
+    color:#585C66;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .sold-to__profile {
+    display: flex;
+    font-size: 12px;
+    padding-top: 10px;
+    .sold-to__profile-name {
+      display: flex;
+      flex: 1;
+      align-items: center;
+    }
+    .sold-to__profile-text {
+      padding-left: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

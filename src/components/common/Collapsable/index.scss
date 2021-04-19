@@ -1,0 +1,19 @@
+.collapsable {
+  .collapsable__title {
+    cursor: pointer;
+    color:#585C66;
+    font-weight: 700;
+    border-bottom: 1px solid #CED2D9 ;
+    padding-bottom: 5px;
+    font-size: 13px;
+    &::after {
+      content: "";
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top-color: #585C66;
+    transition: all .2s linear 0s;
+    margin-bottom: -3px;
+    margin-left: 2px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<svg width="610" height="455" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="#E4E6EB" height="455" width="610"/>
+  <path id="svg_2" fill="#EDEFF2" d="m280,202l0,44l56,0l0,-44l-56,0z"/>
+  <path id="svg_3" fill="#707580" d="m273,195l58,0l0,6l6,0l0,46l-58,0l0,-6l-6,0l0,-46zm56,2l0,4l-50,0l0,38l-4,0l0,-42l54,0zm-48,6l0,24.713l12.976,-12l12.779,12.093l12.613,-12.109l15.632,14.962l0,-27.659l-54,0zm54,30.427l-15.629,-14.959l-11.162,10.715l16.714,15.817l10.077,0l0,-11.573zm-54,11.573l0,-14.562l12.961,-11.986l28.052,26.548l-41.013,0zm29.2,-30.974c0,1.602 -1.298,2.9 -2.9,2.9c-1.602,0 -2.9,-1.298 -2.9,-2.9c0,-1.602 1.298,-2.9 2.9,-2.9c1.602,0 2.9,1.298 2.9,2.9zm-2.9,4.9c2.706,0 4.9,-2.194 4.9,-4.9c0,-2.706 -2.194,-4.9 -4.9,-4.9c-2.706,0 -4.9,2.194 -4.9,4.9c0,2.706 2.194,4.9 4.9,4.9z" clip-rule="evenodd" fill-rule="evenodd"/>
+  <text transform="rotate(19 304.9843750000003,312.9531249999999) " font-style="italic" xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="26" id="svg_6" y="321.95313" x="297.5" stroke-width="0" stroke="#000" fill="#000000"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="10" id="svg_7" y="265.95313" x="263.5" stroke-width="0" stroke="#000" fill="#40444d">No uploaded Photos</text>
+ </g>
+</svg>

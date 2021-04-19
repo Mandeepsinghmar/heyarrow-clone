@@ -1,0 +1,35 @@
+.tabs {
+  background-color: #F2F3F5;
+  border-radius: 2px;
+  padding: 1px;
+  overflow-x: auto;
+  .tabs__item {
+    padding: 6.5px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    min-width: 78px;
+    text-align: center;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .tabs__item.active {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    font-weight: 700
+  }
+}
+.tabs::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.tabs::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.tabs:hover::-webkit-scrollbar-thumb {
+  background: #CED2D9;
+}

@@ -1,0 +1,23 @@
+.chat-input-attachment {
+  background: #CED2D9;
+  border-radius: 2px;
+  padding: 6px 5px;
+  display: flex;
+  width: fit-content;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  .chat-input-attachment__img {
+    width: 24px;
+    height: 18px;
+    overflow: hidden;
+  }
+  .chat-input-attachment__name {
+    padding: 0px 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+}

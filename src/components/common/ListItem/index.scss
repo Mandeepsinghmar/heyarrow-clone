@@ -1,0 +1,28 @@
+.item-list {
+  display: flex;
+  align-items: center;
+  padding: 7px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color:#F2F3F5;
+    .item-list__action {
+      display: inline;
+    }
+  }
+  .item-list__text {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .item-list__title {
+    font-size: 13px;
+  }
+  .item-list__subtitle {
+    font-size: 12px;
+    color:  #40444D;
+  }
+  .item-list__action {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+.vertical-tabs {
+  width: 100%;
+  .vertical-tab-item {
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 10px;
+    font-size: 13px;
+    margin: 5px 0px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+    span {
+      color: #40444D;
+    }
+    .vertical-tab-item__subtitle {
+      color:#40444D;
+      font-weight: 500;
+    }
+    cursor: pointer;
+  }
+  .vertical-tab-item.active {
+    border-left: 2px solid black;
+    font-weight: 700;
+    span {
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,148 @@
+.analytics-response-group {
+  position: absolute;
+  width: 826px;
+  height: 111px;
+  left: 139px;
+  top: 142px;
+  display: flex;
+
+  // .stats-group-analytics-response-opens {
+  // }
+  // .stats-group-analytics-response-clicks {
+  // }
+  // .stats-group-analytics-response-card {
+  // }
+  // .stats-group-analytics-response-leads {
+  // }
+}
+.analytics_response_filters {
+  position: absolute;
+  width: 130px;
+  height: 34px;
+  right: 483px;
+  top: 145px;
+}
+.graph_response_conatiner {
+  position: absolute;
+  width: 800px;
+  height: 381px;
+  left: 115px;
+  top: 274px;
+}
+.sharechat {
+  bottom: 29px;
+  margin-right: 20px;
+  font-family: Inter;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 4px;
+  right: 29%;
+}
+.sharebutton {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}
+.chatdiv {
+  float: right;
+  height: 50px;
+  width: 50px;
+  border-radius: 60%;
+  background: rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-right: 10px;
+  // position: relative;
+  // top: -90%;
+  // left: -18px;
+  // position: absolute;
+  //   top: 125px;
+  //   right: 40px;
+}
+.chatbutton {
+  height: 50px;
+  width: 50px;
+  right: 7px;
+  top: 1px;
+  border-radius: 60%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.chaticon {
+  height: 28px;
+  width: 30px;
+  left: 10px;
+  top: 11px;
+  border-radius: 0px;
+}
+.response_details_text {
+  cursor: pointer;
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 39%;
+  top: 30%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #40444d;
+}
+.response_details_lead_text {
+  cursor: pointer;
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 50%;
+  top: 30%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #40444d;
+}
+.responsedetails {
+  cursor: pointer;
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  left: 392px;
+  top: 70px;
+}
+.responseicon {
+  width: 17px;
+  height: 17px;
+  left: 87px;
+  top: 4px;
+  border-radius: 0.5px;
+  transform: rotate(-180deg);
+  position: absolute;
+}
+.leaddetails {
+  cursor: pointer;
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  left: 560px;
+  top: 70px;
+}
+.leadicon {
+  width: 17px;
+  height: 17px;
+  left: 96px;
+  top: 4px;
+  border-radius: 0.5px;
+  transform: rotate(-180deg);
+  position: absolute;
+}

@@ -1,0 +1,36 @@
+.stats-group {
+  margin-bottom: 10px;
+}
+.headingBox {
+  .headingBox__tabs {
+    max-width: 158px;
+    margin: 0px !important;
+  }
+}
+
+.listing-type {
+  img {
+    margin-right: 13px;
+    cursor: pointer;
+  }
+}
+.my-customers {
+  h3 {
+    color:#585C66;
+    border-bottom: 1px solid #CED2D9;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+}
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filter-list {
+  padding-top: 14.2px;
+  padding-bottom: 5px;
+}

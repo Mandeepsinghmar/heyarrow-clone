@@ -1,0 +1,37 @@
+.message_responsemain{
+    padding: 15px;;
+}
+
+.message_chatdiv{
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.message_searchResponseTabs {
+    display: flex;
+    width: 190px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    float: right;
+    margin-right: 10px;
+}
+
+.message_response_filters {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.message_response_header_title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    float: right;
+    margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+.profile-container {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  .center-box {
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .profile-form {
+    margin-top: 20px;
+    .form-input-group {
+      margin-bottom: 18px;
+      .half-size {
+        width: calc(50% -5px)
+      }
+      .third-size {
+        width: calc(33.33% - 6.66px)
+      }
+    }
+    .form-input-group__phone {
+      .country-code {
+        width: 120px;
+        margin-right: 10px;
+      }
+      .phone-number {
+        flex: 1;
+      }
+    }
+  }
+  .profile-reporting-to {
+    .profile-reporting-to__title {
+      font-weight: 700;
+      font-size: 12px;
+      color: #585C66;
+      padding-bottom: 5px;
+    }
+    .profile-reporting-to__profile {
+      margin-top: 10px;
+    }
+    .profile-reporting-to__text {
+      margin-top: 5px;
+      line-height: 15.73px;
+      h2 {
+        font-weight: 700;
+        font-size: 13px;
+      }
+      span {
+        font-size: 13px;
+        font-weight: 400;
+        color: #585C66;
+      }
+    }
+    .profile-reporting-to__buttons {
+      margin-top: 10px;
+      button {
+        background: #F2F3F5;
+        padding: 8px;
+        img {
+          width: 14px;
+        }
+      }
+      button:first-child {
+        margin-right: 7px;
+      }
+    }
+  }
+  .change-password {
+    color: #40444D;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .select-label {
+    .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined {
+      top: -6px
+    }
+  }
+}

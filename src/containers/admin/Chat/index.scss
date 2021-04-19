@@ -1,0 +1,62 @@
+.admin-chat-container {
+  padding-top: 60px;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+  .admin-chat__contact-list, .admin-chat_details {
+    flex: 0.25;
+  }
+  .admin-chat__contact-list {
+    height: 100%;
+    overflow-y: scroll;
+    .collapsable {
+      .collapsable__title {
+        margin: 0px 20px !important;
+      }
+    }
+    .contact-list-item {
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 0px;
+      &:hover {
+        background-color: #F2F3F5;
+      }
+    }
+    .contact-list-item.active {
+      background-color: #F2F3F5;
+    }
+  }
+  .admin-chat_details {
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  .admin-chat__body {
+    flex: .5;
+    .chat-message-list {
+      height: calc(100vh - 170px)
+    }
+  }
+  .chat-list__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+    .chat-list_actions {
+      display: flex;
+    }
+    padding-bottom: 11px;
+  }
+  .btn.btn-secondary {
+    border: none !important;
+  }
+  .chat-contact-search {
+    padding: 0px 20px;
+  }
+  .sticky-top {
+    padding-top: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  }
+}

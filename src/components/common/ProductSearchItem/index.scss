@@ -1,0 +1,26 @@
+.product-search-list-item {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  .product-search-list-item__img {
+    width: 60px;
+    height: 44px;
+    overflow: hidden;
+    padding-right: 5px;
+    img {
+      width: 100%;
+    }
+  }
+  .product-search-list-item__text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  .product-search-list-item_title {
+    font-weight: 600;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+}

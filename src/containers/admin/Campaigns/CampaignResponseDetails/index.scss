@@ -1,0 +1,145 @@
+.responsecard {
+  border: 2px solid;
+}
+.responseuploadfile {
+  width: 122px;
+  border: 2px solid #000000;
+  color: #000000;
+  cursor: pointer;
+}
+.viewdetails_container{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.detailsviewdetails_container{
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.left_container{
+  align-items: baseline;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+.detailsleft_container{
+  align-items: baseline;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+.summarydiv {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+ }
+.backicon {
+  width: 30px;
+  height: 30px;
+ }
+.summarytext {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 5px;
+  color: #40444d;
+}
+.analytics_response_details_filters {
+  height: 34px;
+}
+.converion_response_details_filters {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 34px;
+  width: 161px;
+}
+.graph_response_details {
+  width: 100%;
+  height: 400px;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .showchat_graph_response_details{
+  width: 50%;
+  height: 400px;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .details_shareBtn{
+   width: 100%;
+ }
+ .showChat_shareBtn{
+   width: 70%;
+ }
+.view_details_sharechat {
+  width: 150px;
+  margin-right: 5%;
+  background-color: #000000;
+  border-radius: 4px;
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+.sharebutton {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}
+.chatresponsediv {
+  float: right;
+  height: 50px;
+  width: 50px;
+  border-radius: 60%;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+ }
+.chatresponsebutton {
+  height: 50px;
+  width: 50px;
+  right: 7px;
+  top: 1px;
+  border-radius: 60%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.chatresponseicon {
+  height: 28px;
+  width: 30px;
+  left: 10px;
+  top: 11px;
+  border-radius: 0px;
+}
+.chartdiv {
+  width: 39%;
+  height: 277px;
+  border:  0.5px solid #C4C4C4;
+  margin-right: 2%;
+  border-radius: 4px;
+}
+.detailschartdiv{
+  width: 30%;
+  height: 277px;
+  border:  0.5px solid #C4C4C4;
+  margin-right: 2%;
+  border-radius: 4px;
+}
+.viewdetails_analytics-chat{
+  position: absolute;
+    width: 562px;
+    right: 60px;
+    z-index: 1;
+    top: 0px;
+}
+

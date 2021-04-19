@@ -1,0 +1,5 @@
+// eslint-disable-next-line import/prefer-default-export
+export const SET_ADMIN_LOCATION_REGION = 'SET_ADMIN_LOCATION_REGION';
+export const CREATE_ADMIN_LOCATION_REGION = 'CREATE_ADMIN_LOCATION_REGION';
+export const ONCHANGE_LOCATION = 'ONCHANGE_LOCATION';
+export const UPDATE_ADMIN_LOCATION = 'UPDATE_ADMIN_LOCATION';

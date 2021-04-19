@@ -1,0 +1,54 @@
+.create-group-chat-modal {
+  min-width: 650px;
+  .modalContent {
+    display: flex;
+    min-height: 550px;
+  }
+  .modal-body {
+    padding: 0px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .create-group-chat-modal__left {
+    min-width: 290px;
+    padding: 22px 20px;
+  }
+  .create-group-chat-modal__right {
+    min-width: 360px;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 12px;
+    color: #585C66;
+    padding-bottom: 5px;
+  }
+  .create-group-chat-modal__header {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-weight: 700;
+      font-size: 15px;
+    }
+  }
+  .create-group-chat-modal__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    .description-text {
+      margin-top: 10px;
+    }
+    .word-count {
+      font-size: 10px;
+      color: #707580;
+    }
+  }
+  .create-group-chat-modal_member-list {
+    height: 200px;
+    overflow: auto;
+    margin-top: 7px;
+  }
+}

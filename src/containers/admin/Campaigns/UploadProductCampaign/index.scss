@@ -1,0 +1,373 @@
+
+.select_products_table, td, th {
+  // border-bottom: 1px solid #dddddd;
+  // text-align: left;
+  padding: 12px;
+}
+
+.product-search-tabs{
+  display: flex;
+  width: 83%;
+  position: relative;
+  margin-bottom: 10px;
+  // margin-left: 7%;
+}
+.selected_row_item {
+  background-color: #f2f2f2;
+ margin-top: 20px !important;
+}
+
+.productsTableLoading{
+  margin-top: 15px;
+  text-align: center;
+}
+
+    .table_group {
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 25px;
+    }
+    .tableLoading{
+      display: flex;
+      justify-content: center;
+    }
+    .grid_product_Select_checklist {
+      margin-left: 33px;
+      .product_checkList_filters{
+        display: flex;
+        justify-content: space-between;
+      .product_select_list {
+        // align-items: center;
+        // padding: 0px;
+        // position: absolute;
+        // right: 0%;
+        // bottom: 0%;
+        // height: 20px;
+        width: 50%;
+        // left: 40px;
+        // top: 0px;
+        // border-radius: 0px;
+
+        .product_item {
+          // position: absolute;
+          // width: 180px;
+          // height: 0px;
+          // left: 0px;
+          // top: calc(50% - 17px / 2);
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          align-items: center;
+          color: #000000;
+          // flex: none;
+          // order: 0;
+          display: grid;
+          grid-template-columns: auto 1fr;
+          grid-row-gap: 1em;
+          .checkbox_list{
+            display: flex;
+           flex-wrap: wrap;
+           align-items: center;
+          }
+          .checkbox_item{
+            margin-top: 10px;
+            align-items: center;
+          }
+          .container {
+            width: 244px;
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+
+          /* Hide the browser's default checkbox */
+          .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+
+          /* Create a custom checkbox */
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            box-sizing: border-box;
+            border-radius: 15px;
+          }
+
+          /* On mouse-over, add a grey background color */
+          .container:hover input ~ .checkmark {
+            background-color: #fff;
+          }
+
+          /* When the checkbox is checked, add a blue background */
+          .container input:checked ~ .checkmark {
+            background-color: #66bb6a;
+            border-color: #66bb6a;
+          }
+
+          /* Create the checkmark/indicator (hidden when not checked) */
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+
+          /* Show the checkmark when checked */
+          .container input:checked ~ .checkmark:after {
+            display: block;
+          }
+
+          /* Style the checkmark/indicator */
+          .container .checkmark:after {
+            height: 14.010245px;
+            width: 8.72412109375px;
+            left: 4px;
+            top: -1px;
+            border-radius: 0px;
+            position: absolute;
+            border: 2px solid #ffffff;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+          }
+        }
+      }
+      .Filter_items{
+        margin-right: 50px;
+      }
+      }
+  }
+    .upload-searchTabs {
+      // position: absolute;
+      // left: 78.19%;
+      // right: 7px;
+      // top: 9.93%;
+      .search_icon {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        left: 184px;
+        top: 9px;
+        border-radius: 0px;
+      }
+    }
+    .filter_by_div {
+      margin-top: 15px;
+      .filter_by_text {
+        position: static;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 5px 0px;
+      }
+    }
+    .upload_category {
+      position: absolute;
+      border-radius: 4px;
+      .category-filter-item {
+        position: absolute;
+        width: 204px;
+        left: 0px;
+        top: -2px;
+        border: 0.5px solid #ced2d9;
+      }
+    }
+      .table_card {
+        height: 415px;
+        display: grid;
+        margin-left: -15px;
+      }
+
+    .upload_back {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px 15px;
+      position: absolute;
+      left: 2.56%;
+      right: 89.77%;
+      top: 92.94%;
+      bottom: 2.54%;
+      background: rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      border-radius: 4px;
+      .back_button {
+        position: static;
+        width: 60px;
+        top: 8px;
+        height: 23px;
+        left: 9px;
+        right: 9px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: -3px;
+      }
+    }
+
+    .upload_product_info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px 15px;
+      position: absolute;
+      left: 83.78%;
+      right: 2.56%;
+      top: 92.94%;
+      bottom: 2.54%;
+      background: #000000;
+      border-radius: 4px;
+      height: 32px;
+      width: 139px;
+      border-radius: 4px;
+      .use_product_info {
+        width: 105px;
+        top: 8px;
+        position: static;
+        height: 16px;
+        left: 17px;
+        right: 17px;
+        // top: calc(50% - 16px / 2);
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+
+
+    .socialpostnextbutton {
+      bottom: 14px;
+      margin-right: 20px;
+      font-family: Inter;
+      position: absolute;
+      background-color: #000000;
+      border-radius: 4px;
+      right: 0;
+    }
+
+
+    .socialpostnexttext {
+      color: #ffffff;
+      font-style: normal;
+      font-weight: 600 ;
+      font-size: 13px ;
+      align-items: center;
+      text-align: center;
+      font-family: Inter;
+    }
+
+.uploadcard-product {
+  position: absolute;
+  height: 800px;
+  width: 1350px;
+  background: #ffffff;
+  border-radius: 4px;
+  top: 135px;
+}
+
+.MuiCardHeader-titleProduct {
+  position: static;
+  height: 10%;
+  top: calc(50% - 18px / 2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 2px 32px;
+}
+
+.socialpostbackbutton {
+  float: left;
+  margin-left: 4%;
+  margin-right: 20px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  bottom: 14px;
+}
+
+.socialpostbacktext {
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-weight: Inter;
+}
+
+.socialpostnextbutton {
+  bottom: 14px;
+  margin-right: 20px;
+  font-family: Inter;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 4px;
+  right: 0;
+}
+
+
+.socialpostnexttext {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600 ;
+  font-size: 13px ;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}

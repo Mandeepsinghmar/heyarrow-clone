@@ -1,0 +1,156 @@
+.card_open_text {
+  width: 68px;
+  height: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #40444d;
+}
+.card_open_icon {
+  border-radius: 0.5px;
+  transform: rotate(-180deg);
+}
+
+.cardOpenDetails {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.analytics_cardBox {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  max-width: 160px;
+  border-radius: 4px;
+  border: 0.5px solid #ced2d9;
+  overflow: hidden;
+  margin-left: 29px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  .analytics_innerCardCon.clickCountColor {
+    border-top-color: #4d88ff;
+  }
+  .analytics_innerCardCon.likeCountColor {
+    border-top-color: #82ca9d;
+  }
+  .analytics_innerCardCon.engagementColor {
+    border-top-color: #ff6384;
+  }
+  .analytics_innerCardCon.impressionCountColor {
+    border-top-color: orange;
+  }
+  .analytics_innerCardCon {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
+      0px 0px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    width: 140px;
+    height: 100px;
+    border: 0.5px solid #ced2d9;
+    border-top: solid 4px #ffc44d;
+    position: relative;
+    background: url("/assets/images/linePattern.png") no-repeat right bottom;
+
+    h4 {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #707580;
+      line-height: 15px;
+      font-weight: 600;
+      margin-bottom: 3px;
+      margin-top: 0px;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    h5 {
+      position: absolute;
+      font-size: 13px;
+      font-weight: 600;
+      top: 5px;
+      right: 5px;
+      margin: 0;
+      color: #40444d;
+    }
+
+    &.yellow {
+      border-color: #ffc44d;
+
+      .iconBar {
+        &:after {
+          background: #ffc44d;
+        }
+      }
+    }
+
+    &.gray {
+      border-color: #ced2d9;
+
+      .iconBar {
+        &:after {
+          background: #707580;
+        }
+      }
+    }
+
+    &.green {
+      border-color: #1db954;
+
+      .iconBar {
+        &:after {
+          background: #1db954;
+        }
+      }
+    }
+
+    &.lightgray {
+      border-color: #ced2d9;
+
+      .iconBar {
+        &:after {
+          background: #ced2d9;
+        }
+      }
+    }
+
+    &.blueLign {
+      border-color: #4dc3ff;
+
+      .iconBar {
+        &:after {
+          background: #4dc3ff;
+        }
+      }
+    }
+
+    &.blue {
+      border-color: #4d88ff;
+
+      .iconBar {
+        &:after {
+          background: #4d88ff;
+        }
+      }
+    }
+
+    &.red {
+      border-color: #ff4d6a;
+
+      .iconBar {
+        &:after {
+          background: #ff4d6a;
+        }
+      }
+    }
+  }
+}

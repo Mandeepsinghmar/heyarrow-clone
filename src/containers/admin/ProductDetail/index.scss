@@ -1,0 +1,29 @@
+.productDetailView {
+    width: 100%;
+    .Admin-chatboxCon {
+        height: calc(100% - 100px);
+    }
+    .prodDescription {
+        textarea {
+            font-size: 12px;
+            line-height: 16px;
+            padding: 0px !important;
+        }
+    }
+    .prodInput {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+    .prodHalfSize {
+        width: 48%;
+    }
+    .chatFooter {
+        display: flex;
+        justify-content: space-between;
+    }
+    .searchTabs {
+        position:static ;
+    }
+    
+}

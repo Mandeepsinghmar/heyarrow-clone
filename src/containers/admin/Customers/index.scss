@@ -1,0 +1,145 @@
+.customerList {
+    padding: 60px 0px 0px;
+    width: 100%;
+    .searchTabs.searchContain {
+        margin-right: 5px !important;
+        margin-bottom: 0px !important;
+    }
+    .searchContain img {
+        width: 13px;
+    }
+    .searchContain input {
+        height: 30px !important;
+        width: 100% !important;
+        border-radius: 2px !important;
+    }
+    .search-field{
+        margin-bottom: 0;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+    .teamHeadBtn {
+        width: 60px !important;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: black;
+        color: white;
+        padding: 1px 10px;
+        height: 28px;
+        align-items: center;
+        font-size: 13px;
+    }
+    .tableContent table tbody tr {
+        td.firstName {
+            min-width: 150px;
+            .profileIcon {
+              margin-right: 5px;
+            }
+            input {
+                width: 80%;
+            }
+        }
+        td.lastName {
+            min-width: 120px;
+        }
+        input.editingInput {
+            padding-left: 0px;
+            line-height: 16px;
+            width: 110px;
+            margin-right: 10px;
+        }
+        td.accountName {
+            min-width: 160px;
+        }
+        td.email {
+            min-width: 220px;
+            input {
+              width: 210px;
+            }
+        }
+        td.phone {
+            min-width: 160px;
+            input {
+              width: 130px;
+            }
+        }
+        td.zipcode {
+            min-width: 90px;
+            input {
+              width: 70px;
+            }
+        }
+        td.updatedAt {
+            min-width: 100px;
+            input {
+                width: 100%;
+            }
+        }
+        td.stateId, td.cityId {
+            min-width: 140px;
+        }
+        td.assign_to {
+            min-width: 160px;
+        }
+    }
+    .tableContent table tbody tr td {
+        padding: 5px 0px;
+    }
+    .tableContent table tbody tr td.stateId .tableOptions.dropdown_wrapper.dropdown {
+        width: 150px;
+    }
+    .tableContent table tbody tr td.cityId .tableOptions.dropdown_wrapper.dropdown {
+        width: 150px;
+        button {
+            width: 90%;
+            overflow: hidden;
+            text-align: left;
+        }
+    }
+    .tableContent table tbody tr td.assign_to .tableOptions.dropdown_wrapper.dropdown {
+        width: 170px;
+    }
+    .tableContent table tbody tr td.assign_to .tableOptions .dropdown-menu .dropdown-item {
+        padding: 10px 0px 5px 0px !important;
+    }
+    .tableContent table tbody tr td.stateId .dropdown .btn.btn-secondary {
+        font-weight: 400;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align:left;
+    }
+    .tableContent table tbody tr td.cityId .dropdown .btn.btn-secondary {
+        font-weight: 400;
+    }
+    .tableContent table tbody tr td.assign_to .dropdown .btn.btn-secondary .userCard div {
+        font-weight: 400;
+    }
+    .moreToggle{
+        border:none !important;
+    }
+}
+
+.CustDrawerContainer{
+    width: 500px;
+    padding: 10px;
+    .custDetailsWrap{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .custInfoWrap{
+        display: flex;
+        justify-content: space-around;
+        .infoSection{
+            padding: 8px;
+            margin: 15px 0px;
+            height: 40px;
+            .infoHead{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

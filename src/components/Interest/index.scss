@@ -1,0 +1,43 @@
+.customer-interest-container {
+  .customer-interest__header {
+    padding-top: 23px;
+    padding-bottom: 10px;
+    h3 {
+      font-weight: 700;
+      font-size: 12px;
+      color: #585c66;
+    }
+  }
+  .customer-interest-body {
+    border: 0.5px solid #ced2d9;
+    box-sizing: border-box;
+    padding: 12px 10px 5px 10px;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .tag {
+    background: #f2f3f5;
+    padding: 5px;
+    border-radius: 2px;
+    color: #40444d;
+    margin-left: 0px;
+  }
+  .customer-interest__item {
+    margin-bottom: 10px;
+    h4 {
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+  }
+  .time {
+    font-size: 10px;
+  }
+  .time-icon {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+  }
+  .time-icon:hover {
+    opacity: 0.8;
+  }
+}

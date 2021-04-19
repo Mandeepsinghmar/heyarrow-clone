@@ -1,0 +1,30 @@
+.filterLeadSectiontabs {
+  margin: 9px; 
+}.new-sub-lead-list{
+  height: 325px;
+  width: 512px;
+  border-radius: 4px;
+  left: 300px;
+  top: 120px;
+  position: absolute;
+}.list-header-text{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #000000;
+    margin-right: 10px;
+}.filter-dropdown{
+  width: 110px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}

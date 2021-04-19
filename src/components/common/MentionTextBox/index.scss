@@ -1,0 +1,13 @@
+.mention__suggestions {
+  z-index: 999 !important;
+  height: 50vh !important;
+  overflow: scroll;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.mention__highlighter[style]{
+  max-width: 10vw;  
+  overflow-wrap: inherit  !important;
+
+}

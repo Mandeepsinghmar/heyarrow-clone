@@ -1,0 +1,99 @@
+.productList {
+  padding: 60px 0px 0px;
+  width: 100%;
+  .searchContain {
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+  }
+  .searchContain img {
+    width: 13px;
+  }
+  .searchContain input {
+    height: 30px !important;
+    border-radius: 2px !important;
+    width: 100% !important;
+  }
+  .search-field {
+    margin-bottom: 0;
+  }
+  .updatesBtn {
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    background-color: #707580;
+    font-size: 10px !important;
+    font-weight: 500;
+    border-radius: 100px;
+    .updatesBtnIcon {
+      color: #ffffff;
+      font-size: 10px;
+      padding-left: 8px;
+    }
+  }
+  .productsHeader {
+    & > span {
+      padding-right: 2px;
+    }
+  }
+  .productsSelectStatus {
+    min-width: 220px;
+    max-height: 32px;
+    background-color: #F2F3F5;
+    border-radius: 4px;
+  }
+  .productsIcon_alert-gray {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .sendHeadBtn {
+    width: 45px !important;
+  }
+  td.modelYear button.btn.btn-secondary {
+    font-weight: 400;
+    color: black;
+  }
+  .tableContent table thead tr th {
+    padding-bottom: 5px;
+  }
+  .tableContent table tbody tr td {
+    padding: 5px 0px;
+    .editingInput {
+      padding-left: 0px;
+    }
+  }
+  .tableContent table tbody tr {
+    td.manufacturer,
+    td.model,
+    td.horsePower {
+      min-width: 140px;
+    }
+    td.category,
+    td.operationHours {
+      min-width: 160px;
+    }
+    td.advertisedPrice {
+      min-width: 100px;
+    }
+    td.stockNumber {
+      min-width: 140px;
+    }
+    td.serialNumber {
+      min-width: 200px;
+    }
+    td.cityId {
+      min-width: 120px;
+    }
+    td.machine {
+      min-width: 230px;
+    }
+  }
+}
+
+.topActionBarUpdated__popOver {
+  color: #ffffff ;
+  background-color: #40444D ;
+  min-width: 320px;
+  padding: 4px 8px;
+}

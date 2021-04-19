@@ -1,0 +1,11 @@
+.headingToggle {
+    border-radius: 2px;
+    .centerBar {
+        width: 300px !important;
+        height: 30px;
+        border-radius: 2px;
+        ul li {
+            padding: 8px 10px;
+        }
+    }
+}

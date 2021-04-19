@@ -1,0 +1,338 @@
+.social_post_title {
+  position: static;
+  height: 10%;
+  top: calc(50% - 18px / 2);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 2px 32px;
+}
+.social_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: absolute;
+  left: 0%;
+  right: 18.8%;
+  top: 12.95%;
+  bottom: 62.14%;
+  height: 132px;
+  width: 833.136963px;
+  border-radius: 0px;
+
+  .facebook {
+    cursor: pointer;
+    position: static;
+    width: 113px;
+    height: 110px;
+    left: calc(50% - 132px / 2 - 348px);
+    top: 5px;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 42px 0px;
+  }
+  .blurImage{
+    opacity: 0.7;
+  }
+  .instagram {
+    cursor: pointer;
+    position: static;
+    width: 132px;
+    height: 132px;
+    left: calc(50% - 132px / 2 - 174px);
+    top: 5px;
+    border-radius: 4px;
+  }
+  .linkedin {
+    cursor: pointer;
+    position: static;
+    width: 132px;
+    height: 132px;
+    left: calc(50% - 132px / 2 - 0px);
+    top: 5px;
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 42px 0px;
+  }
+  .twitter {
+    cursor: pointer;
+    position: static;
+    width: 132px;
+    height: 132px;
+    left: calc(50% - 132px / 2 + 174px);
+    top: 5px;
+    border-radius: 4px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 42px 0px;
+  }
+  .snapchat {
+    cursor: pointer;
+    position: static;
+    width: 132px;
+    height: 132px;
+    left: calc(50% - 132px / 2 + 348px);
+    top: 5px;
+    border-radius: 4px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 42px 0px;
+  }
+}
+
+.social_post_select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  position: absolute;
+  left: 4.81%;
+  right: 23.54%;
+  top: 46%;
+  bottom: 49.56%;
+  height: 40px;
+  width: 784px;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  .social_post_select_text {
+    position: absolute;
+    width: 344px;
+    height: 17px;
+    left: 19px;
+    /* top: calc(50% - 17px / 2); */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+}
+.social_post_group {
+  position: absolute;
+  left: 7.58%;
+  right: 65.21%;
+  top: 54.44%;
+  bottom: 32.56%;
+  height: 144px;
+  width: 219px;
+}
+.social_post_group_one {
+  position: absolute;
+  left: 1.58%;
+  right: 65.21%;
+  top: -2.56%;
+  bottom: 46.33%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #40444d;
+  height: 20px;
+  width: 235px;
+  display: block;
+  .container {
+    width: 288px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    line-height: 26px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    /* left: 71px; */
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #fff;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    height: 14.010245px;
+    width: 8.72412109375px;
+    left: 4px;
+    top: -1px;
+    border-radius: 0px;
+    position: absolute;
+    border: 2px solid #ffffff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+}
+
+.social_post_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 15px;
+  height: 32px;
+  width: 78px;
+
+  border-radius: 4px;
+  padding: 8px, 15px, 8px, 15px;
+
+  position: absolute;
+  left: 2.56%;
+  right: 89.77%;
+  top: 92.94%;
+  bottom: 2.54%;
+
+  /* Black / 5 */
+
+  background: rgba(0, 0, 0, 0.05);
+  /* Black / 10 */
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  .social_post_back {
+    cursor: pointer;
+    position: static;
+    height: 23px;
+    left: 9px;
+    right: 9px;
+    top: calc(50% - 23px / 2 + 3.5px);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    height: 23px;
+    width: 60px;
+    border-radius: nullpx;
+  }
+}
+
+.social_post_next_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 15px;
+  height: 32px;
+  width: 60px;
+  border-radius: 4px;
+  padding: 8px, 15px, 8px, 15px;
+  position: absolute;
+  left: 91.49%;
+  right: 2.61%;
+  top: 92.94%;
+  bottom: 2.54%;
+  background: #000000;
+  border-radius: 4px;
+  .social_post_next {
+    cursor: pointer;
+    position: static;
+    height: 16px;
+    left: 15px;
+    right: 15px;
+    top: calc(50% - 16px / 2);
+    height: 16px;
+    width: 30px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+}
+.pageLoader{
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.SocialErrorMsg{
+  align-items: center;
+  width: 100%;
+  display: flex;
+  color: red;
+}

@@ -1,0 +1,93 @@
+.teamOrgChart {
+    padding: 60px 0px 0px;
+    width: 100%;
+    .leftSideBar {
+        margin: 0px !important;
+        border-right: 0.5px solid #ced2d9;
+        .bottomBtnCon button {
+            font-weight: 500;
+        }
+        .cardHeader {
+            box-shadow: none;
+            padding-bottom: 12px;
+        }
+        .rolesAddIcon {
+            position: absolute;
+            top: 20px;
+            right: 18px;
+            border: none;
+            background: none;
+            padding: 0px !important;
+        }
+        .tableBox {
+            padding: 10px 0px !important;
+            height: calc(100% - 110px) !important;
+            .listCon li.active {
+              border-left: 2px solid #000;
+            }
+            .listCon li {
+              border-radius: 0 !important;
+              padding: 15px 20px !important;
+              cursor: pointer;
+              .sendBtn {
+                right: 5px !important;
+                top: 7px !important;
+              }
+              .editDepartmentInput span {
+                position: absolute;
+                right: 20px;
+                top: 21px;
+              }
+            }
+            .listCon li input {
+              background: transparent !important;
+              border: 1px solid #ccc;
+              padding: 5px;
+            }
+            .listCon li input:focus {
+              outline: none !important;
+            }
+            .addNewItem {
+              padding: 10px 20px;
+            }
+        }
+    }
+    .rightSection {
+        width: calc(100% - 240px);
+        box-shadow: none;
+        background: #F2F3F5;
+        .exportBtn .btn {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+        }
+        .orgChartCon {
+          div#tree div:first-child {
+            display: none;
+          }
+          div#tree rect {
+            fill: #fff;
+          }
+        div#tree circle {
+            visibility: hidden;
+          }
+          div#tree rect.field_rec_2 {
+            fill: #F7F8FA;
+          }
+          div#tree circle.field_3 {
+            visibility: visible;
+          }
+          div#tree line {
+              visibility: hidden;
+          }
+          div#tree .bg-toolbar-container {
+            line {
+              visibility: visible;
+            }
+            div:first-child {
+              display: block !important;
+            }
+          }
+        }
+    }
+}

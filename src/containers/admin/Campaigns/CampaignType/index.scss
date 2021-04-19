@@ -1,0 +1,179 @@
+.smartCampign {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: flex-end;
+  margin-right: 15%;
+  align-items: center;
+}
+
+.smartCampign-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-weight: Inter;
+  color: #000000;
+}
+
+.exclamationCircle {
+  display: inline-block;
+  margin-right: 5%;
+  margin-left: 1%;
+  color: #4d4d4d;
+}
+
+  .exclamationCircle .hoverBox {
+    visibility: hidden;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 7px 14px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    top: 23%;
+    right: 20%;
+    font-style: normal;
+    border-radius: 2px;
+    line-height: 14.52px;
+}
+
+.exclamationCircle:hover .hoverBox {
+  visibility: visible;
+}
+
+.toggleSwitch {
+  margin-top: 1%;
+}
+
+.gridcontainer-email {
+  width: 154px;
+  height: 142px;
+  margin-left: 150px;
+  margin-top: 4%;
+}
+
+.emailtext {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold !important;
+font-size: 15px !important;
+line-height: 18px;
+display: flex;
+color: #000000;
+justify-content: center;
+}
+
+.gridcontainer-text {
+  width: 154px;
+  height: 142px;
+  margin-left: 48px;
+  margin-top: 4%;
+}
+
+.socilposttext {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  line-height: 18px;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+}
+
+.gridcontainer-socialpost {
+  width: 154px;
+  height: 142px;
+  margin-left: 48px;
+  margin-top: 4%;
+}
+
+.socialpost {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.gridcontainer-social-ad {
+  width: 154px;
+  height: 142px;
+  margin-left: 150px;
+  margin-top: 45px;
+}
+
+.socialad {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  line-height: 18px;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+}
+
+.gridcontainer-search {
+  width: 154px;
+  height: 142px;
+  margin-left: 48px;
+  margin-top: 45px;
+}
+
+.searchad {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 15px !important;
+  line-height: 18px;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+}
+
+.voiceMail-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    line-height: 18px;
+    display: flex;
+    color: #000000;
+    justify-content: center;
+}
+
+
+.gridcontainer-Voicemail__Drop {
+  width: 154px;
+  height: 142px;
+  margin-left: 48px;
+  margin-top: 45px;
+}
+
+.voiceMail{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  line-height: 18px;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+}
+.dispcontent-image {
+  height: 70%;
+  width: 105%;
+  margin-left: -4px;
+}

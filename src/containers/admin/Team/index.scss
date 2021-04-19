@@ -1,0 +1,384 @@
+.teamList {
+  padding: 60px 0px 0px;
+  width: 100%;
+  .searchTabs.searchContain {
+    margin-right: 5px !important;
+    margin-bottom: 0px !important;
+  }
+  .searchContain img {
+    width: 13px;
+  }
+  .searchContain input {
+    height: 30px !important;
+    width: 100% !important;
+    border-radius: 2px !important;
+  }
+  .search-field {
+    margin-bottom: 0;
+  }
+  .teamHeadBtn {
+    width: 45px !important;
+  }
+  .moreLeads {
+    border: none !important;
+    top: 1px;
+    position: relative;
+  }
+  .tableContent table tbody tr td {
+    padding: 5px 0px;
+  }
+  .tableContent table tbody tr.show-no-history {
+    width: 81% !important;
+  }
+  .topActionBar .sendBtn {
+    margin-left: 5px;
+  }
+  .topActionBar .createBtn {
+    max-height: 32.5px;
+    margin-top: 0;
+  }
+  .topActionBar .dropdownMenuTeam {
+    margin-top: 8px;
+    background-color: #000000;
+    padding: 12px 16px;
+    min-width: unset;
+    font-weight: 400 !important;
+    border-radius: 6px;
+    &:hover {
+      background-color: #000000 !important;
+    }
+  }
+
+  .topActionBar .viewDeactivated {
+    padding: 4px 4px !important;
+    color: #ffffff !important;
+
+    &:hover {
+      background-color: #000000 !important;
+    }
+  }
+
+  .leftSideBar {
+    margin: 0px !important;
+    border-right: 0.5px solid #ced2d9;
+    .bottomBtnCon button {
+      font-weight: 500;
+    }
+    .cardHeader {
+      box-shadow: none;
+      padding-bottom: 12px;
+    }
+    .rolesAddIcon {
+      position: absolute;
+      top: 20px;
+      right: 18px;
+      border: none;
+      background: none;
+      padding: 0px !important;
+    }
+    .tableBox {
+      padding: 10px 0px !important;
+      height: calc(100% - 110px) !important;
+      .listCon li.active {
+        border-left: 2px solid #000;
+      }
+      .listCon li {
+        border-radius: 0 !important;
+        padding: 15px 20px !important;
+        cursor: pointer;
+        .sendBtn {
+          right: 5px !important;
+          top: 7px !important;
+        }
+        .editDepartmentInput span {
+          position: absolute;
+          right: 20px;
+          top: 21px;
+        }
+      }
+      .listCon li input {
+        background: transparent !important;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+      .listCon li input:focus {
+        outline: none !important;
+      }
+      .addNewItem {
+        padding: 10px 20px;
+      }
+    }
+  }
+  .rightSection {
+    width: calc(100% - 240px);
+    box-shadow: none;
+  }
+  .send-invite-team img {
+    transform: rotate(325deg);
+    width: 18px;
+    height: 18px;
+  }
+  .tableContent table tbody tr {
+    td {
+      font-size: 13px;
+      line-height: 16px;
+    }
+    td.firstName {
+      min-width: 150px;
+      .profileIcon {
+        margin-right: 5px;
+      }
+    }
+    td.lastName {
+      min-width: 120px;
+    }
+    td.departments {
+      min-width: 140px;
+      .tableOptions .btn {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+      }
+    }
+    td.roleId {
+      div:first-child {
+        width: 150px !important;
+      }
+      .tableOptions .btn {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+      }
+    }
+    td.email {
+      min-width: 220px;
+      input {
+        width: 210px;
+      }
+    }
+    td.stateId,
+    td.cityId {
+      min-width: 120px;
+      .dropdown {
+        width: 120px !important;
+      }
+      .tableOptions .btn {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+      }
+    }
+    td.phoneNumber {
+      min-width: 180px;
+      input {
+        width: 150px;
+        margin-top: -2px;
+      }
+    }
+    td.zipcode {
+      min-width: 90px;
+      input {
+        width: 80px;
+      }
+    }
+    td.reportingTo {
+      min-width: 180px;
+    }
+    td.report_to {
+      input {
+        width: 100px;
+        margin-left: 5px;
+      }
+      .tableOptions .btn {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+      }
+    }
+    td.updatedAt {
+      input {
+        width: 90px;
+      }
+    }
+    input.editingInput {
+      padding-left: 0px;
+      line-height: 16px;
+      width: 110px;
+      margin-right: 10px;
+    }
+    .form-control {
+      min-width: auto;
+      width: 100px;
+    }
+    .searchTabs {
+      width: 100% !important;
+      input {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+.team__person-regular {
+  width: 60px;
+  height: 60px;
+  background: #f2f3f5;
+  border-radius: 50%;
+}
+
+.team__add-team-input-field {
+  & > .row {
+    padding-left: 16px;
+    padding-right: 16px;
+
+    & > .col-6 {
+      padding-top: 4px;
+      padding-right: 4px;
+      padding-left: 4px;
+    }
+
+    & > .col-12 {
+      padding-top: 4px;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+
+  & > .d-flex {
+    padding-top: 4px;
+
+    & > .w-50 {
+      margin-left: 4px;
+      margin-right: 4px;
+
+      & > .addTeamModalDropdown {
+        margin-bottom: 0px !important;
+      }
+    }
+  }
+}
+
+.addLeadModal {
+  max-width: 400px;
+  max-height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%) !important;
+  .modal-body {
+    padding: 20px 0px;
+  }
+  .createLeadHeader {
+    height: 30px;
+    box-shadow: inset 0px -0.5px 0px #dadee5;
+    border-radius: 4px 4px 0px 0px;
+    padding: 0px 20px;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  button.roleCloseBtn {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    i {
+      color: #707580;
+      font-weight: 700;
+    }
+  }
+  .roleContent {
+    p {
+      font-size: 13px;
+      line-height: 15px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+  }
+  .buttonOuter {
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 0px 20px;
+    button.cancelRoleBtn {
+      background: #edeff2;
+      width: 73px !important;
+      margin-right: 10px;
+      height: 32px;
+    }
+    button.sendRoleBtn {
+      background: #de2b2b;
+      width: 78px !important;
+      height: 32px;
+    }
+  }
+}
+
+.dropdownMenuTeam {
+  margin-top: 8px;
+  background-color: #000000;
+  padding: 12px 16px;
+  min-width: unset;
+  width: none !important;
+  font-weight: 400 !important;
+  border-radius: 6px;
+  &:hover {
+    background-color: #000000 !important;
+  }
+
+  .dropdownMenu_invite {
+    padding: 4px 4px !important;
+    color: #ffffff !important;
+
+    &:hover {
+      background-color: #000000 !important;
+    }
+  }
+  .dropdownMenu_invite__width_108px {
+    min-width: 108px;
+  }
+}
+
+.addTeamModalDropdown {
+  display: flex;
+  align-items: center;
+  height: 39px;
+  background: #f2f3f5;
+  border: 0.5px solid #ced2d9;
+  border-radius: 2px;
+  padding: 10px 10px;
+  // font-size: 12px;
+  line-height: 15px;
+  position: relative;
+  margin-bottom: 10px;
+  .dropdown .btn {
+    // font-size: 12px !important;
+    line-height: 15px;
+    color: #707580 !important;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+  }
+  .dropIcons {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+  .dropdown-menu {
+    width: 240px;
+    height: 240px;
+    overflow-y: scroll;
+    input {
+      width: 100%;
+    }
+    .searchTabs {
+      width: 100%;
+    }
+  }
+}

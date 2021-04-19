@@ -1,0 +1,146 @@
+.analytics-group {
+  // position: absolute;
+
+  .social-group-analytics {
+    position: absolute;
+    top: 20%;
+    left: 151px;
+  }
+  .social-group-reactions {
+    position: absolute;
+    left: 317px;
+    top: 144px;
+  }
+  .social-group-response-comments {
+    position: absolute;
+    left: 482px;
+    top: 143px;
+  }
+  .social-group-clicks {
+    position: absolute;
+    left: 153px;
+    top: 259px;
+  }
+  .social-group-messages {
+    position: absolute;
+    left: 317px;
+    top: 259px;
+  }
+  .social-group-lead {
+    position: absolute;
+    left: 485px;
+    top: 259px;
+  }
+}
+.analytics__filters_social {
+  position: absolute;
+  width: 130px;
+  height: 34px;
+  right: 677px;
+  top: 145px;
+}
+.graph-conatiner_social {
+  position: absolute;
+  width: 800px;
+  height: 351px;
+  left: 115px;
+  top: 372px;
+}
+.sharechat {
+  bottom: 29px;
+  margin-right: 20px;
+  font-family: Inter;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 4px;
+  right: 29%;
+}
+.sharebutton {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+}
+.opendetails {
+  cursor: pointer;
+  position: absolute;
+  width: 78px;
+  height: 17px;
+  left: 71px;
+  top: 74px;
+}
+.response_open_text {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #40444d;
+}
+.openicon {
+  width: 17px;
+  height: 17px;
+  left: 58px;
+  top: -1px;
+  border-radius: 0.5px;
+  transform: rotate(-180deg);
+  position: absolute;
+}
+.analytics-chat {
+  float: right;
+}
+// .chatcontent {
+//   // right: 10px;
+// }
+
+.chat-container-analytics-social {
+  position: absolute;
+  /* float: right; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  right: -65%;
+  top: 143px;
+  .sticky-top {
+    background-color: #f2f3f5;
+  }
+  .btn.btn-secondary {
+    border: none !important;
+  }
+  .chat-list__tabs {
+    background-color: #e4e6eb;
+  }
+  .chat-list__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .chat-list_actions {
+      display: flex;
+    }
+    padding-bottom: 11px;
+  }
+  .leftSidebar,
+  .rightSideBar {
+    width: 270px;
+  }
+  .contact-list {
+    width: 100%;
+  }
+  .chat-body-container-analytics {
+    // width: 407px;
+    // height: 539px;
+    border-radius: 4px;
+    /* top: -114px; */
+    // position: absolute;
+  }
+}

@@ -1,0 +1,195 @@
+.productPageContainer {
+    padding: 60px 0px 0px;
+    width: 100%;
+    .activity {
+        box-shadow: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 15px 20px;
+        h4 {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            text-transform: uppercase;
+        }
+        a {
+            position: relative;
+            top: 4px;
+            margin-right: 10px;
+        }
+    }
+    .productDetailView{
+        .middleCon {
+            padding-top: 15px;
+            h4 {
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 18px;
+                margin-bottom: 10px;
+            }
+        }
+        .leftCon {
+            padding-left: 60px;
+            padding-right: 50px;
+            .file-preview {
+                min-width: 50%;
+                .content {
+                    text-align: left !important;
+                }
+                .content .dragDrop {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+                .cardHeader {
+                    box-shadow: none;
+                    padding-bottom: 3px;
+                    margin-right: 0px;
+                }
+                .switch {
+                    position: absolute;
+                    right: 0px;
+                }
+            }
+            .file-preview:last-child {
+                .cardHeader {
+                   margin-right: 0px;
+                }
+            }
+            .imagesSection {
+                .imgCon {
+                    width: calc(100% / 4.5);
+                    margin-top: 0px;
+                    margin-right: 12px !important;
+                    margin-bottom: 12px;
+                    .img {
+                        width: 100%;
+                        padding: 0px;
+                    }
+                    .delete {
+                        right: 4px;
+                        top: 4px;
+                        border-radius: 4px;
+                        padding: 1px;
+                        img {
+                            filter: invert(1);
+                        }
+                        cursor: pointer;
+                    }
+                    .delete-message {
+                        left: 80px;
+                    }
+                }
+                .imgCon:hover {
+                    .delete-message {
+                        display: none;
+                    }
+                }
+                .imgCon .delete-msg-container:hover {
+                    .delete-message {
+                        display: block;
+                    }
+                }
+                .imgCon:focus {
+                    outline: none !important;
+                }
+            }
+        }
+        .rightCon {
+            margin: 0px;
+            box-shadow: none !important;
+            height: calc(100vh - 178px);
+            border-left: 1px solid #ced2d9;
+            padding-bottom: 0px;
+            .Admin-chatboxCon {
+                height: 100% !important;
+                .chat-message__footer {
+                    position: relative;
+                    width: 95%;
+                    margin: 0px auto;
+                    .mention.mention--singleLine {
+                        background: #f2f3f5;
+                        width: 94%;
+                        height: 40px;
+                        border-radius: 4px;
+                        input {
+                            height: 100%;
+                            padding-left: 10px;
+                        }
+                    }
+                    input.form-control {
+                        width: 90%;
+                        background: #f2f3f5;
+                    }
+                    button.MuiButtonBase-root.MuiIconButton-root.chatSendBtn {
+                        padding: 0px !important;
+                        background: none !important;
+                    }
+                }
+            }
+            .chatBody {
+                li {
+                    list-style: none;
+                }
+                .userCard {
+                    .userCon {
+                        border: none;
+                        margin-top: 5px;
+                    }
+                }
+                .commentTabListOuter  {
+                   display: flex;
+                   .commentTabList {
+                        background: #f2f3f5;
+                        padding: 10px;
+                        border-radius: 4px;
+                        .mainOuterChat {
+                            display: flex;
+                            p {
+                                margin-right: 10px;
+                            }
+                        }
+                   }
+                }
+                .commentTabListOuter.commentTabListOuterAlternative {
+                    width: auto;
+                    justify-content: flex-end;
+                }
+                .my-comment {
+                    max-width: 90%;
+                    margin-left: 0px;
+                    background: #f2f3f5 !important;
+                    border-radius: 4px;
+                    padding: 10px;
+                    width: auto !important;
+                    p {
+                        font-size: 12px;
+                        line-height: 15px;
+                        font-weight: normal;
+                    }
+                    .mainOuterChat {
+                        display: flex;
+                        p {
+                            font-size: 12px;
+                            line-height: 15px;
+                            font-weight: normal;
+                            color: #40444D !important;
+                            margin-right: 5px;
+                        }
+                        span {
+                            font-size: 10px;
+                            line-height: 17px;
+                            font-weight: normal;
+                            color: #585C66 !important;
+                        }
+                    }
+                    div, p, span {
+                        color: #000 !important;
+                    }
+                }
+                .rightIcon .dropdown button {
+                    border: none;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}

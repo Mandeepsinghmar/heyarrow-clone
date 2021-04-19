@@ -1,0 +1,120 @@
+.location-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+  background: #fff;
+  .ShowTableLoader {
+    margin-top: 20px;
+  }
+  .location-title {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 20px 0px;
+  }
+  .cardHeader {
+    padding: 0px 20px;
+    box-shadow: none;
+  }
+  .location-content {
+    padding: 0px 20px;
+    .tableContent table tbody tr {
+      td {
+        padding: 5px 0px;
+      }
+      td.name {
+        min-width: 140px;
+        width: 140px;
+      }
+      td.stateId {
+        min-width: 180px;
+        width: 180px;
+        .tableOptions.dropdown_wrapper.dropdown {
+          width: 140px;
+        }
+        .searchTabs {
+          display: none;
+        }
+      }
+      input.editingInput {
+        padding-left: 0px;
+        line-height: 16px;
+        width: 110px;
+        margin-right: 10px;
+      }
+      .locationBtn {
+        right: 0px !important;
+        .moreLeads {
+          padding: 0px;
+          margin: 0px;
+        }
+      }
+    }
+  }
+  .side-right {
+    top: 20px;
+    right: 20px;
+  }
+  .add-icon {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    line-height: 16px;
+    background: none;
+  }
+  .location-add-city {
+    height: 14px;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  .location-city-block {
+   background: #F2F3F5;
+    border: 0.5px solid #CED2D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 10px;
+    i {
+      color: #40444D;
+    }
+  }
+  .location-table-head {
+    width: 120px;
+  }
+  .location-states-menu {
+    min-width: 70px;
+    .btn {
+      border: none !important;
+      padding: 0px !important;
+      box-shadow: none !important;
+    }
+    .btn:after {
+      display: none;
+    }
+    .dropdown-menu {
+      top: 10px !important;
+    }
+    .dropdown-menu::-webkit-scrollbar {
+      width: 0px; 
+      background: transparent; 
+    } 
+  }
+  .extra-menu {
+    min-width: auto;
+  }
+
+  .moreLeads {
+    border:none !important;
+  }
+  .moreOptionsConnew{
+    position: absolute !important;
+    right: 20px !important;
+  }
+}

@@ -1,0 +1,52 @@
+.detailDrawer {
+  width: 520px;
+  max-height: 100vh;
+  overflow-y: hidden;
+
+  .detailDrawer__cardHeader {
+    border-bottom: 0.5px solid #e4e6eb;
+    padding: 12px 32px;
+  }
+
+  .detailDrawer__cardBody {
+    padding: 0px 32px;
+  }
+
+  .detailDrawer__field-label {
+    color: #585c66;
+    font-weight: 500;
+  }
+
+  .detailDrawer__field-key {
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .detailDrawer__text {
+    font-size: 13px;
+    padding: 0 !important;
+  }
+
+  .detailDrawer__history {
+    margin-top: 25%;
+    border-bottom: 0.5px solid #e4e6eb;
+    color: #585c66;
+    font-weight: 600;
+  }
+
+  .detailDrawer__history-text {
+    color: #585c66;
+  }
+
+  .detailDrawer_font-size-13px {
+    font-size: 13px;
+  }
+
+  .detailDrawer__history-list {
+    line-height: 2.25;
+  }
+
+  .detailDrawer_margin-top-12px {
+    margin-top: 12px;
+  }
+}

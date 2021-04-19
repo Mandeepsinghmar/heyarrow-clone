@@ -1,0 +1,90 @@
+.add-customer-modal {
+  width: 400px;
+  .modal-header {
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    .modal-title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 15px 0px;
+    }
+  }
+  .add-customer-modal__avatar {
+    display: flex;
+    justify-content: center;
+  }
+  .add-customer-modal__form {
+    padding-top: 28px;
+    .form-input-group {
+      padding-bottom: 18px;
+      .half-size {
+        width: calc(50% - 5px);
+      }
+      .third-size {
+        width: calc(33.33% - 6.66px);
+      }
+    }
+    .form-input-group__phone {
+      .country-code {
+        width: 112px;
+        margin-right: 10px;
+      }
+      .phone-number {
+        flex: 1;
+      }
+    }
+    .select-label {
+      .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined {
+        top: -6px;
+      }
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.addCustomerModalDropDown {
+  display: flex;
+  align-items: center;
+  height: 39px;
+  background: #ffffff;
+  border: 0.5px solid #ced2d9;
+  border-radius: 2px;
+  padding: 10px 10px;
+  line-height: 15px;
+  position: relative;
+  margin-bottom: 10px;
+  .dropdown .btn {
+    line-height: 15px;
+    color: #707580 !important;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+  }
+  .dropIcons {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+  .dropdown-menu {
+    width: 240px;
+    height: 240px;
+    overflow-y: scroll;
+    input {
+      width: 100%;
+    }
+    .searchTabs {
+      width: 100%;
+    }
+  }
+}

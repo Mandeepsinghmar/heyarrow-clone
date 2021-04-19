@@ -1,0 +1,16 @@
+.content{
+    flex: 1;
+    max-width: 240px;
+}
+
+span .time{
+    float: right;
+    width: 60px;
+    padding-left: 5px;
+}
+
+#show{
+    display: flex;
+    border-radius: 5;
+    justify-content: flex-start;
+}

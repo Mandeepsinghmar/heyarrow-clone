@@ -1,0 +1,1000 @@
+{
+    "campaignList": [
+      {
+        "title": "Q1 Blast 60+ Days Inventory",
+        "type": "email",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "dd-mm-yyyy:hh:ss1",
+        "draft": true,
+        "id": 1,
+        "thumb": "https://static.turbosquid.com/Preview/2016/07/28__19_59_39/16in1.jpgC5330213-BAC2-44C6-8D9A-4E3A2D414120Large.jpg",
+        "data": {
+          "file_type": "image"
+        }
+      },
+      {
+        "title": "NY 2021 Special2",
+        "type": "text",
+        "description": "Lorem ipsum dolor sit amet consectetur2",
+        "date": "dd-mm-yyyy:hh:ss2",
+        "draft": false,
+        "id": 2,
+        "thumb": "https://uploads.codesandbox.io/uploads/user/a9c2a2d1-a6a2-41ec-9bf3-88ace03ac0fb/1ov4-test.pdf",
+        "data": {
+          "file_type": "pdf"
+        }
+      },
+      {
+        "title": "Chritmas-Big Toys Campaign",
+        "type": "email",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "dd-mm-yyyy:hh:ss1",
+        "draft": true,
+        "id": 3,
+        "thumb": "https://www.youtube.com/watch?v=XhMVWzVXNNk",
+        "data": {
+          "file_type": "mp4"
+        }
+      },
+      {
+        "title": "Chritmas-Big Toys Campaign",
+        "type": "email",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "dd-mm-yyyy:hh:ss1",
+        "draft": true,
+        "id": 4,
+        "thumb": "https://www.youtube.com/watch?v=XhMVWzVXNNk",
+        "data": {
+          "file_type": "wmv"
+        }
+      },
+      {
+        "title": "Chritmas-Big Toys Campaign",
+        "type": "email",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "dd-mm-yyyy:hh:ss1",
+        "draft": true,
+        "id": 5,
+        "thumb": "https://www.youtube.com/watch?v=XhMVWzVXNNk",
+        "data": {
+          "file_type": "mov"
+        }
+      },
+      {
+        "title": "Q4 Blast -45 + Days Inventory",
+        "type": "text",
+        "description": "Lorem ipsum dolor sit amet consectetur2",
+        "date": "dd-mm-yyyy:hh:ss2",
+        "draft": false,
+        "id": 6,
+        "thumb": "https://internetofbusiness.com/wp-content/uploads/2016/05/john-deere-1280x720.jpg",
+        "data": {
+          "file_type": "image"
+        }
+      },
+      {
+        "title": "Holiday Get Lifted Campaign",
+        "type": "email",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "dd-mm-yyyy:hh:ss1",
+        "draft": true,
+        "id": 7,
+        "thumb": "https://static.turbosquid.com/Preview/2016/07/28__19_59_39/16in1.jpgC5330213-BAC2-44C6-8D9A-4E3A2D414120Large.jpg",
+        "data": {
+          "file_type": "image"
+        }
+      },
+      {
+        "title": "NY 2021 Special6",
+        "type": "text",
+        "description": "Lorem ipsum dolor sit amet consectetur2",
+        "date": "dd-mm-yyyy:hh:ss2",
+        "draft": false,
+        "id": 8,
+        "thumb": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp4",
+        "data": {
+          "file_type": "mp3"
+        }
+      }
+    ],
+    "recipientsLists": {
+      "recipients": [
+        {
+          "id": "1",
+          "firstName": "Steve",
+          "lastName": "Thingvold"
+        },
+        {
+          "id": "2",
+          "firstName": "Loren",
+          "lastName": "Myers"
+        },
+        {
+          "id": "3",
+          "firstName": "Christopher",
+          "lastName": "Pawelski"
+        },
+        {
+          "id": "4",
+          "firstName": "Charlie",
+          "lastName": "Wheat"
+        },
+        {
+          "id": "5",
+          "firstName": "David",
+          "lastName": "Giesmann"
+        },
+        {
+          "id": "6",
+          "firstName": "Jim",
+          "lastName": ""
+        },
+        {
+          "id": "7",
+          "firstName": "Randy",
+          "lastName": "Tano"
+        },
+        {
+          "id": "8",
+          "firstName": "JH",
+          "lastName": "Wilder"
+        },
+        {
+          "id": "9",
+          "firstName": "Andrea",
+          "lastName": "Fix"
+        },
+        {
+          "id": "10",
+          "firstName": "Danny",
+          "lastName": ""
+        }
+      ],
+      "selectLists": [
+        {
+          "id": "1",
+          "name": "Recent Lead (-7 days)",
+          "recent": true
+        },
+        {
+          "id": "2",
+          "name": "Recent Equipment Purchase",
+          "recent": true
+        },
+        {
+          "id": "3",
+          "name": "Last Contact > 90 Days",
+          "recent": false
+        },
+        {
+          "id": "4",
+          "name": "Service Due (All)",
+          "recent": false
+        },
+        {
+          "id": "5",
+          "name": "John Deere Customer Tags",
+          "recent": false
+        },
+        {
+          "id": "6",
+          "name": "Trade-in Customer Tags",
+          "recent": false
+        }
+      ]
+    },
+    "socialProfiles": {
+      "facebook": [
+        {
+          "name": "OptimusEquipment of Milwaukee",
+          "selected": true
+        },
+        {
+          "name": "OptimusEquipment",
+          "selected": true
+        },
+        {
+          "name": "Kristen Lodge",
+          "selected": false
+        },
+        {
+          "name": "Chad Rembolt, Dir. of Sales",
+          "selected": false
+        },
+        {
+          "name": "The Equipment Forum, WI",
+          "selected": true
+        }
+      ],
+      "instagram": [
+        {
+          "name": "OptimusEquipment of Milwaukee",
+          "selected": false
+        },
+        {
+          "name": "OptimusEquipment",
+          "selected": false
+        },
+        {
+          "name": "Kristen Lodge",
+          "selected": false
+        },
+        {
+          "name": "Chad Rembolt, Dir. of Sales",
+          "selected": false
+        },
+        {
+          "name": "The Equipment Forum, WI",
+          "selected": false
+        }
+      ],
+      "linkedin": [
+        {
+          "name": "OptimusEquipment of Milwaukee",
+          "selected": false
+        },
+        {
+          "name": "OptimusEquipment",
+          "selected": true
+        },
+        {
+          "name": "Kristen Lodge",
+          "selected": true
+        },
+        {
+          "name": "Chad Rembolt, Dir. of Sales",
+          "selected": false
+        },
+        {
+          "name": "The Equipment Forum, WI",
+          "selected": true
+        }
+      ],
+      "twitter": [
+        {
+          "name": "OptimusEquipment of Milwaukee",
+          "selected": true
+        },
+        {
+          "name": "OptimusEquipment",
+          "selected": true
+        },
+        {
+          "name": "Kristen Lodge",
+          "selected": false
+        },
+        {
+          "name": "Chad Rembolt, Dir. of Sales",
+          "selected": false
+        },
+        {
+          "name": "The Equipment Forum, WI",
+          "selected": false
+        }
+      ],
+      "snapchat": [
+        {
+          "name": "OptimusEquipment of Milwaukee",
+          "selected": false
+        },
+        {
+          "name": "OptimusEquipment",
+          "selected": true
+        },
+        {
+          "name": "Kristen Lodge",
+          "selected": false
+        },
+        {
+          "name": "Chad Rembolt, Dir. of Sales",
+          "selected": false
+        },
+        {
+          "name": "The Equipment Forum, WI",
+          "selected": false
+        }
+      ]
+    },
+    "dynamicFields": [
+      {
+        "id": "1",
+        "title": "Customer Name",
+        "name": "John Deere"
+      },
+      {
+        "id": "2",
+        "title": "Business Name",
+        "name": "Shopify"
+      },
+      {
+        "id": "3",
+        "title": "City",
+        "name": "Hyderabad"
+      },
+      {
+        "id": "4",
+        "title": "Closest Store Location",
+        "name": "Secunderabad"
+      },
+      {
+        "id": "5",
+        "title": "Assigned Rep.",
+        "name": "Assigned Rep"
+      },
+      {
+        "id": "6",
+        "title": "Machine Name (Latest Purchase)",
+        "name": "Marketing-8245R"
+      }
+    ],
+  
+    "grpahData" :[
+      
+      {
+        "xaxisData":"Jan",
+        "opens": "10",
+        "clicks": "10",
+        "response": "15",
+        "leads": "45",
+        "amt": "2400",
+        "yaxisData":"0"
+        
+      },
+      {
+        "xaxisData":"Feb",
+        "opens": "15",
+        "clicks": "90",
+        "response": "20",
+        "leads": "85",
+        "amt": "2210",
+        "yaxisData":"10"
+      },
+      {
+        "xaxisData": "Mar",
+       "opens": "50",
+        "clicks": "40",
+        "response": "10",
+        "leads": "95",
+        "amt": "2290",
+        "yaxisData":"20"
+      },
+      {
+        "xaxisData": "Apr",
+        "opens": "30",
+        "clicks": "100",
+        "response": "30",
+        "leads": "50",
+        "amt": "2000",
+        "yaxisData":"30"
+      },
+      {
+        "xaxisData": "May",
+        "opens": "78",
+        "clicks": "80",
+        "response": "40",
+        "leads": "58",
+        "amt": "2181",
+        "yaxisData":"40"
+      },
+      {
+        "xaxisData": "Jun",
+       "opens": "20",
+        "clicks": "70",
+        "response": "90",
+        "leads": "40",
+        "amt": "2500",
+        "yaxisData":"50"
+      },
+      {
+        "xaxisData": "Jul",
+        "opens": "40",
+        "clicks": "60",
+        "response": "30",
+        "leads": "80",
+        "amt": "2100",
+        "yaxisData":"60"
+      },
+      {
+        "xaxisData": "Aug",
+        "opens": "30",
+        "clicks": "50",
+        "response": "50",
+        "leads": "20",
+        "amt": "2100",
+        "yaxisData":"70"
+      },
+      {
+       "xaxisData": "Sept",
+        "opens": "90",
+        "clicks": "50",
+        "response": "30",
+        "leads": "50",
+        "amt": "2100",
+        "yaxisData":"80"
+      },
+      {
+        "xaxisData": "Oct",
+        "opens": "50",
+        "clicks": "50",
+        "response": "60",
+        "leads": "70",
+        "amt": "2100",
+        "yaxisData":"90"
+      },
+      {
+        "xaxisData":"Nov",
+        "open": "90",
+        "clicks":"30",
+        "response": "40",
+        "leads": "80",
+        "amt": "2100",
+        "yaxisData":"100"
+      },
+      {
+        "xaxisData": "Dec",
+        "opens": "40",
+        "clicks": "30",
+        "response": "85",
+        "leads": "20",
+        "amt": "2100",
+        "yaxisData":"110"
+      }
+  
+    ],
+  
+    "cardData":[
+      {
+        "id":"1",
+        "opens":"350"
+      },
+      {
+        "id":"2",
+        "clicks":"120"
+      },
+      {
+        "id":"3",
+        "responses":"200"
+      },
+      {
+        "id":"4",
+        "leads":"150"
+      }
+  
+    ],
+  
+    "socialCardData":[
+      {
+        "id":"1",
+        "impressions":"350"
+      },
+      {
+        "id":"2",
+        "reactions":"120"
+      },
+      {
+        "id":"3",
+        "comments":"200"
+      },
+      {
+        "id":"4",
+        "clicks":"150"
+      },
+      {
+        "id":"5",
+        "messages":"50"
+      },
+      {
+        "id":"6",
+        "leads":"400"
+      }
+    ],
+  
+    "socialGraphData" :[
+      {
+        "month":"January",
+        "impressions": "10",
+        "reactions": "10",
+        "comments": "15",
+        "clicks": "45",
+        "messages":"66",
+        "leads":"70",
+        "amt": "2400",
+        "yaxisData":"0",
+        "value":"6 months"
+      },
+      {
+        "month":"Febrauary",
+        "impressions": "15",
+        "reactions": "90",
+        "comments": "20",
+        "clicks": "85",
+        "messages":"86",
+        "leads":"30",
+        "amt": "2210",
+        "yaxisData":"10",
+        "value":"12 months"
+      },
+      {
+        "month": "March",
+       "impressions": "50",
+        "reactions": "40",
+        "comments": "10",
+        "clicks": "95",
+        "messages":"56",
+        "leads":"20",
+        "amt": "2290",
+        "yaxisData":"20",
+        "value":"6 months"
+      },
+      {
+        "month": "April",
+        "impressions": "30",
+        "reactions": "100",
+        "comments": "30",
+        "clicks": "50",
+        "messages":"26",
+        "leads":"90",
+        "amt": "2000",
+        "yaxisData":"30",
+        "value":"12 months"
+      },
+      {
+        "month": "May",
+        "impressions": "78",
+        "reactions": "80",
+        "comments": "40",
+        "clicks": "58",
+        "messages":"86",
+        "leads":"30",
+        "amt": "2181",
+        "yaxisData":"40",
+        "value":"12 months"
+      },
+      {
+        "month": "June",
+       "impressions": "20",
+        "reactions": "70",
+        "comments": "90",
+        "clicks": "40",
+        "messages":"76",
+        "leads":"20",
+        "amt": "2500",
+        "yaxisData":"50",
+        "value":"30 days"
+      },
+      {
+        "month": "July",
+        "impressions": "40",
+        "reactions": "60",
+        "comments": "30",
+        "clicks": "80",
+        "messages":"16",
+        "leads":"28",
+        "amt": "2100",
+        "yaxisData":"60",
+        "value":"3 months"
+      },
+      {
+        "month": "August",
+        "impressions": "30",
+        "reactions": "50",
+        "comments": "50",
+        "clicks": "20",
+        "messages":"76",
+        "leads":"68",
+        "amt": "2100",
+        "yaxisData":"70",
+        "value":"30 days"
+      },
+      {
+       "month": "September",
+        "impressions": "90",
+        "reactions": "50",
+        "comments": "30",
+        "clicks": "50",
+        "messages":"96",
+        "leads":"48",
+        "amt": "2100",
+        "yaxisData":"80",
+        "value":"10 days"
+      },
+      {
+        "month": "October",
+        "impressions": "50",
+        "reactions": "50",
+        "comments": "60",
+        "clicks": "70",
+        "messages":"76",
+        "leads":"28",
+        "amt": "2100",
+        "yaxisData":"90",
+        "value":"10 days"
+      },
+      {
+        "month":"November",
+        "impressions": "90",
+        "reactions":"30",
+        "comments": "40",
+        "clicks": "80",
+        "messages":"56",
+        "leads":"58",
+        "amt": "2100",
+        "yaxisData":"100",
+        "value":"3 months"
+      },
+      {
+        "month": "December",
+        "impressions": "40",
+        "reactions": "30",
+        "comments": "85",
+        "clicks": "20",
+        "messages":"76",
+        "leads":"28",
+        "amt": "2100",
+        "yaxisData":"110",
+        "value":"3 months"
+      }
+    ],
+  
+    "responseData":[
+        {
+          "id":"1",
+          "date":"10.56 AM",
+          "customerType":"Existing",
+          "firstName": "John",
+          "lastName": "Smith",
+          "emailAddress": "johnsmith50@gmail.com",
+          "phoneNumber":"+1 (989) 721 1311",
+          "lastPurchase":"6145 R John Deera",
+          "state":"MN",
+          "city":"Windom",
+          "assignTo":"Ryan King",
+          "status":"open",
+          "value":"all"
+        },
+        {
+          "id":"2",
+          "date":"9:43 AM",
+          "customerType":"New",
+          "firstName": "Brett",
+          "lastName": "Block",
+          "emailAddress": "brettblock@gmail.com",
+          "phoneNumber":"+1",
+          "lastPurchase":"",
+          "state":"Select",
+          "city":"Select",
+          "assignTo":"Ryan King",
+          "status":"open",
+          "value":"unread"
+        },
+        {
+          "id":"3",
+          "date":"Yesterday",
+          "customerType":"New",
+          "firstName": "Brett",
+          "lastName": "Block",
+          "emailAddress": "brettblock@gmail.com",
+          "phoneNumber":"+1",
+          "lastPurchase":"",
+          "state":"MN",
+          "city":"NY",
+          "assignTo":"Ryan King",
+          "status":"open",
+          "value":"unassigned"
+        },
+        {
+          "id":"4",
+          "date":"01/26/2021",
+          "customerType":"New",
+          "firstName": "Brett",
+          "lastName": "Block",
+          "emailAddress": "brettblock@gmail.com",
+          "phoneNumber":"+1",
+          "lastPurchase":"",
+          "state":"MN",
+          "city":"NY",
+          "assignTo":"Ryan King",
+          "status":"open",
+          "value":"disqualified"
+        },
+        {
+          "id":"5",
+          "date":"07/10/2020",
+          "customerType":"Existing",
+          "firstName": "Brett",
+          "lastName": "Block",
+          "emailAddress": "brettblock@gmail.com",
+          "phoneNumber":"+1",
+          "lastPurchase":"6145 R John Deera",
+          "state":"MN",
+          "city":"NY",
+          "assignTo":"Ryan King",
+          "status":"open",
+          "value":"all"
+        },
+        {
+          "id":"6",
+          "date":"07/10/2020",
+          "customerType":"Existing",
+          "firstName": "Brett",
+          "lastName": "Block",
+          "emailAddress": "brettblock@gmail.com",
+          "phoneNumber":"+1 (989) 256 3658",
+          "lastPurchase":"6145 R John Deera",
+          "state":"MN",
+          "city":"NY",
+          "assignTo":"",
+          "status":"open",
+          "value":"all"
+        },
+        {
+          "id":"7",
+          "date":"07/10/2020",
+          "customerType":"Existing",
+          "firstName": "Brett",
+          "lastName": "Block",
+          "emailAddress": "brettblock@gmail.com",
+          "phoneNumber":"+1 ",
+          "lastPurchase":"6145 R John Deera",
+          "state":"MN",
+          "city":"NY",
+          "assignTo":"",
+          "status":"open",
+          "value":"all"
+        }
+        
+    ],
+    "commentsData":[
+      {
+        "id":"1",
+        "name":"Mukesh Jankauskas",
+        "businessaccount":"Fields & Sons",
+        "rep":"",
+        "message":"Hey, just catching this now, happy new year! Hope all is...",
+        "on":"01/05/2020",
+        "at":"9:23 AM"
+      },
+      {
+        "id":"2",
+        "name":"Aloisia Smalls",
+        "businessaccount":"Home & Garden Ma...",
+        "rep":"",
+        "message":"Hi Mike, I was acutally thinking bout reaching out to you...",
+        "on":"01/04/2020",
+        "at":"10:02 AM"
+      },
+      {
+        "id":"3",
+        "name":"Gray Rendón",
+        "businessaccount":"Gray Rendón, LLC",
+        "rep":"Assign",
+        "message":"Hello, how do I find out if I qualify?",
+        "on":"01/04/2020",
+        "at":"8:47 AM" 
+      },
+      {
+        "id":"4",
+        "name":"Guy Allsopp",
+        "businessaccount":"Allsopp Pest Control",
+        "rep":"Assign",
+        "message":"Do you deliver to Minnesota? Feel free to give me a call ...",
+        "on":"01/03/2020",
+        "at":"6:53 PM" 
+      }
+    ],
+    "semiCircleChartData":[
+      {
+      "country": "Uncategorized: 4",
+      "value": 301
+     },
+     {
+       "country": "Unqualified: 7",
+       "value": 200
+     },
+     {
+      "country": "Converted to Leads: 21",
+       "value": 400
+      }
+    ],
+    "listTableData":[
+      {
+        "id":"1",
+        "customer":"Christopher Pawelski",
+        "product":"BRILLON SS-1201",
+        "soldon":"08/19/2020",
+        "serviceduein":"59 Days"
+      },
+      {
+        "id":"2",
+        "customer":"Darleen Edwards",
+        "product":"2019 JOHN DEERE E170",
+        "soldon":"01/14/2020",
+        "serviceduein":"11 Days" 
+      },
+      {
+        "id":"3",
+        "customer":"Rachel LBrann",
+        "product":"FRONTIER GM1072E",
+        "soldon":"07/22/2020",
+        "serviceduein":"80 Days" 
+      },
+      {
+        "id":"4",
+        "customer":"Whitney Jacques",
+        "product":"2019 JOHN DEERE 640R",
+        "soldon":"10/10/2020",
+        "serviceduein":"01 Days" 
+      },
+      {
+        "id":"5",
+        "customer":"Greg Neibauer",
+        "product":"2005 JOHN DEERE 4920",
+        "soldon":"05/07/2020",
+        "serviceduein":"80 Days" 
+      },
+      {
+        "id":"6",
+        "customer":"Michele Clements",
+        "product":"2019 JOHN DEERE 520M",
+        "soldon":"09/26/2020",
+        "serviceduein":"7 Days"  
+      },
+      {
+        "id":"7",
+        "customer":"Darryl Weidkamp",
+        "product":"2011 CASE IH STEIGER 550",
+        "soldon":"03/17/2020",
+        "serviceduein":"41 Days"  
+      }
+    ],
+  
+       
+      "elements": [
+              {
+                  "totalShareStatistics": {
+                     
+                      "shareCount": "40",
+                      "likeCount": "20",
+                      "engagement": "80",
+                      "clickCount": "30",
+                      "impressionCount": "20",
+                      "commentCount": "10",
+                      "yaxisData":10
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609459200000,
+                      "end": 1609545600000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                    
+                      "shareCount": "50",
+                      "likeCount": "40",
+                      "engagement": "30",
+                      "clickCount": "20",
+                      "impressionCount": "30",
+                      "commentCount": "60",
+                      "yaxisData":20
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609545600000,
+                      "end": 1609632000000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                    
+                      "shareCount": "90",
+                      "likeCount": "10",
+                      "engagement": "40",
+                      "clickCount": "30",
+                      "impressionCount": "50",
+                      "commentCount": "30",
+                      "yaxisData":40
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609632000000,
+                      "end": 1609718400000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                   
+                      "shareCount": 20,
+                      "likeCount": 90,
+                      "engagement": 50,
+                      "clickCount": 30,
+                      "impressionCount": 20,
+                      "commentCount": 30,
+                      "yaxisData":70
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609718400000,
+                      "end": 1609804800000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                   
+                      "shareCount": 50,
+                      "likeCount": 30,
+                      "engagement": 20,
+                      "clickCount": 70,
+                      "impressionCount": 10,
+                      "commentCount": 90,
+                      "yaxisData":80
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609804800000,
+                      "end": 1609891200000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                    
+                      "shareCount": 40,
+                      "likeCount": 30,
+                      "engagement": 20,
+                      "clickCount": 70,
+                      "impressionCount": 90,
+                      "commentCount": 20,
+                      "yaxisData":100
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609891200000,
+                      "end": 1609977600000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                    
+                      "shareCount": 10,
+                      "likeCount": 50,
+                      "engagement": 90,
+                      "clickCount": 30,
+                      "impressionCount": 50,
+                      "commentCount": 20,
+                      "yaxisData":110
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1609977600000,
+                      "end": 1610064000000
+                  }
+              },
+              {
+                  "totalShareStatistics": {
+                   
+                      "shareCount": 20,
+                      "likeCount": 70,
+                      "engagement": 30,
+                      "clickCount": 70,
+                      "impressionCount": 90,
+                      "commentCount": 30,
+                      "yaxisData":120
+                  },
+                  "share": "urn:li:share:6768480416031629314",
+                  "organizationalEntity": "urn:li:organization:71524979",
+                  "timeRange": {
+                      "start": 1610064000000,
+                      "end": 1610150400000
+                  }
+              }
+   
+          ] 
+  
+  }

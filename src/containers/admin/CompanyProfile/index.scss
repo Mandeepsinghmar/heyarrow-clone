@@ -1,0 +1,19 @@
+.detail-cardBox {
+  width: 340px;
+  border: 0.5px solid #E4E6EB;
+  border-radius: 4px;
+}
+.uploadCardBox {
+  margin-left: 10px;
+  width: 448px;
+  .innerCardBox {
+  border: 0.5px solid #E4E6EB;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  }
+}
+
+.company-profile-container {
+  justify-content: center;
+  background-color: white;
+}

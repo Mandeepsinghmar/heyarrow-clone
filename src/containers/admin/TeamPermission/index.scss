@@ -1,0 +1,28 @@
+.teamDetails {
+    padding: 60px 0px 0px;
+    width: 100%;
+    .leftSideBar {
+        margin: 0px !important;
+        border-right: 0.5px solid #ced2d9;
+    }
+    .rightSection {
+        width: calc(100% - 240px);
+        box-shadow: none;
+        padding: 10px 20px;
+        .TeamSideTitle {
+            padding-top: 20px;
+            display: block;
+            height: auto;
+            width: 100%;
+        }
+        .TeamHeaderContainer {
+            display: flex;
+            position: relative;
+        }
+        .TeamHeaderContainer .sendBtn {
+            position: absolute;
+            right: 0px;
+            top: -5px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.search-list-item {
+  font-size: 13px;
+  padding: 12px 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  .search-list-item-action {
+    display: none;
+  }
+  &:hover {
+    background: #F2F3F5;
+    .search-list-item-action {
+      display: inline;
+    }
+  }
+  .search-list-item-text {
+    padding-left: 5px;
+  }
+}

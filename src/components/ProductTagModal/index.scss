@@ -1,0 +1,39 @@
+.product-tag-modal {
+  .modal-content {
+    height: 550px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: unset !important
+  }
+  .product-tag-modal__side {
+    padding: 20px;
+  }
+  .product-tag-modal__side-left {
+    width: 290px;
+  }
+  .product-tag-modal__side-right {
+    width: 360px;
+  }
+  .moreOptionsCon {
+    .btn.btn-secondary {
+      border: none !important;
+    }
+  }
+  .tagged-item {
+    cursor: pointer;
+    padding: 7.5px 0px;
+    .moreOptionsCon {
+      display: none;
+    }
+    &:hover {
+      .moreOptionsCon {
+        display: inline;
+      }
+    }
+  }
+}
+
+.h1-heading {
+  font-size: 15px;
+  font-weight: 700;
+}

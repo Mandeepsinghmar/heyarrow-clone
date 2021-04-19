@@ -1,0 +1,14 @@
+<svg width="200" height="224" viewBox="0 0 200 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="100" cy="222" rx="35" ry="2" fill="#E3EEF7"/>
+<path d="M1 56H42C49.732 56 56 49.732 56 42V1" stroke="#707580" stroke-width="2"/>
+<line x1="45" y1="119" x2="97" y2="119" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="45" y1="90" x2="97" y2="90" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="45" y1="128" x2="84" y2="128" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="45" y1="99" x2="84" y2="99" stroke="#4D92DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M136 121C136.8 120.2 145.667 111.333 150 107M150 107L164 121M150 107V137" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="160" cy="122" r="40" fill="#4D92DE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M147 0C155.284 0 162 6.71573 162 15V73.0401C161.337 73.0134 160.67 73 160 73V15C160 7.8203 154.18 2 147 2H56.0743L2 56.4124V185C2 192.18 7.8203 198 15 198H147C154.18 198 160 192.18 160 185V171C160.67 171 161.337 170.987 162 170.96V185C162 193.284 155.284 200 147 200H15C6.71573 200 0 193.284 0 185V56C0 55.7359 0.104507 55.4825 0.290695 55.2951L54.9489 0.295101C55.1366 0.106214 55.3919 0 55.6582 0H147Z" fill="#707580"/>
+<path d="M170.607 111.393L160 122M149.393 132.607L160 122M160 122L149.393 111.393M160 122L170.607 132.607" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="33" cy="124" r="6" stroke="#4D92DE" stroke-width="2"/>
+<circle cx="33" cy="95" r="6" stroke="#4D92DE" stroke-width="2"/>
+</svg>
